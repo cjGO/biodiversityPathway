@@ -2,11 +2,13 @@ import os
 
 from fastapi import FastAPI, Depends
 from tortoise.contrib.fastapi import register_tortoise
+from .routers import router
 
 from app.config import get_settings, Settings
 
 
 app = FastAPI()
+app.include_router(router)
 
 
 register_tortoise(
