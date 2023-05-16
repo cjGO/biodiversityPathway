@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.14.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_426271</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>236</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_426271</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>236</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001312506.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 14-like [Nicotiana tabacum] &gt;dbj|BAN58166.1| ethylene response factor 179 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312506</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.034</Hsp_bit-score>
+      <Hsp_score>1255</Hsp_score>
+      <Hsp_evalue>5.95434e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQIGWSYPRPRDINITIRKEEFSVLFPNAATLLHK</Hsp_qseq>
+      <Hsp_hseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQIGWSYPRPRDINITIRKEEFSVLFPNAATLLHK</Hsp_hseq>
+      <Hsp_midline>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQIGWSYPRPRDINITIRKEEFSVLFPNAATLLHK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|OIT05898.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13 [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>OIT05898</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>4.0321e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPADNATFSFSDLDFLDSIEHHLLNDSDFSNSFSPISSSNVANPNSPSSSFGSCLLDENIEETTTLESQSEPEEQTQGGRAAREGNTKQNWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPEPARVKGRRHNSCSLEPSSSSSTTSSENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNPADNATFSFSD+DFLDSIEHHLLNDSDFSNSFSP+SSSNVA PNSPSSSFGSCLLDENIEETT LESQSEPEE   GG+AARE NTKQ WRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS NMPEP RV G RHNS SLEPSS+SSTTSSENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_016481010.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 2-like [Nicotiana tabacum] &gt;gb|UAA40904.1| APETALA2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016481010</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>3.42221e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPLDNATFFFSDLDFLDSIEHHLLNDSDFSNSFSPISSSSVATPNSPSSCFCSCLLDENIEETTTLESQSEPEEPTQGLKAARAENTKQNWRRYIGVRRRAWGKFAAEIRDPERRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPEPARVKGRRHNSRSLEPSSSSSTTSSENGRRKR</Hsp_hseq>
+      <Hsp_midline>MNP DNATF FSD+DFLDSIEHHLLNDSDFSNSFSP+SSS+VATPNSPSS F SCLLDENIEETT LESQSEPEE   G KAAR ENTKQ WRRYIGVRRR WGKFAAEIRDPERRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS NMPEP RV G RHNSRSLEPSS+SSTTSSENG +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_009609535.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009609535</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>4.0404e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPADNATFSFSDLDFLDSIDHHLLINSDFSNSFSPMSSSNVATPNSRSSSFGSCLLDENIEETTTLESQSETEEQTQGGKAARERNTKQDWRRYIGVRWRPWGKFAAEIRDPDRRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPEPARVKGSRHNSCSLEPSSSSSTPLSENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNPADNATFSFSD+DFLDSI+HHLL +SDFSNSFSPMSSSNVATPNS SSSFGSCLLDENIEETT LESQSE EE   GGKAARE NTKQ WRRYIGVR RPWGKFAAEIRDP+RRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS NMPEP RV G RHNS SLEPSS+SST  SENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_001312505.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Nicotiana tabacum] &gt;dbj|BAN58167.1| ethylene response factor 168 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312505</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>7.49869e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPADNATFSFSDLDFLDSIDHHLLINSDFSNSFSPMSSSNVATPNSRSSSFGSCLLDENIEETTTLESQSETEEQTQGGKAARERNTKQDWRRYIGVRWRPWGKFAAEIRDPDRRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPEPARVKGSCHNSCSLEPSSSSSTPLSENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNPADNATFSFSD+DFLDSI+HHLL +SDFSNSFSPMSSSNVATPNS SSSFGSCLLDENIEETT LESQSE EE   GGKAARE NTKQ WRRYIGVR RPWGKFAAEIRDP+RRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS NMPEP RV G  HNS SLEPSS+SST  SENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_009592010.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor ERF106-like, partial [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009592010</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>1.31634e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPED</Hsp_qseq>
+      <Hsp_hseq>MNPAANATFSFSDLDFLDSIDHHLLINSDFSNSFWPMSSSNVATPNSPSSSFGSCLLDENIEETTTLESQSETEEQTQGGKAARERNTKQDWRRYIGVRRRPWGKFAAEIWDPDRRGARLWLGTYETPED</Hsp_hseq>
+      <Hsp_midline>MNPA NATFSFSD+DFLDSI+HHLL +SDFSNSF PMSSSNVATPNSPSSSFGSCLLDENIEETT LESQSE EE   GGKAARE NTKQ WRRYIGVRRRPWGKFAAEI DP+RRGARLWLGTY+TPED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_049396931.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Solanum stenotomum]</Hit_def>
+  <Hit_accession>XP_049396931</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>7.72655e-72</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>NATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAA-REENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>NTKFSLSDFDFLESVKQHLLNDFDFSEYFSPMNLSNVELPNSPNSSLGSSPSIESHEKS---ESEVEIIKGPMVVVREKNASGDWRRYIGVRRRQWGTFAAEIRDPDRKGARLWLGTYETPEDAALAYDQAAFKIRGSKAKVNFPHLIGS-NMPEPARLT-VRHRTHSLKPSAFSS-TSLENGTRKRK</Hsp_hseq>
+      <Hsp_midline>N  FS SD DFL+S++ HLLND DFS  FSPM+ SNV  PNSP+SS GS    E+ E++   ES+ E  +G     RE+N    WRRYIGVRRR WG FAAEIRDP+R+GARLWLGTY+TPEDAALAYDQAAFKIRGS+A++NFPHLIGS NMPEP R+T +RH + SL+PS+ SS TS ENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_009591318.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009591318</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.483</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>1.83226e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLI</Hsp_qseq>
+      <Hsp_hseq>MNPADNATFSFSDLDFLDSIDHHLLINSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTP-ESQSKPEEQTQGGKAARERNTNQDWRRYIGVRQRPWGKFAAEIRDPDRRGARLWLGTYETPEDAALAYDQAAFKRYMFSKKLKILTLI</Hsp_hseq>
+      <Hsp_midline>MNPADNATFSFSD+DFLDSI+HHLL +SDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETT  ESQS+PEE   GGKAARE NT Q WRRYIGVR+RPWGKFAAEIRDP+RRGARLWLGTY+TPEDAALAYDQAAFK      +L    LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_019241433.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 2-like [Nicotiana attenuata] &gt;gb|OIT19461.1| ethylene-responsive transcription factor 13 [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019241433</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.22294e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSC----------LLDENIEETTI-LESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQIGW</Hsp_qseq>
+      <Hsp_hseq>MNSAD-VTFSFSDFNLLESIKQHLLIDSDFSEILSPMSSNN-ALPDSPSSCFGSSPSAENSFEISLWDQNFEETMPNLEKKCESEEETKGNVAAREKNAPQDWRRYIGVKRRPWGTFSAEMRDPDRRGARLWLGTYETPEDAAMAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTRSPEPSFSSSTSSSVNVTRKRKIDVINSIAKVCHGW</Hsp_hseq>
+      <Hsp_midline>MN AD  TFSFSD + L+SI+ HLL DSDFS   SPMSS+N A P+SPSS FGS           L D+N EET   LE + E EE   G  AARE+N  Q WRRYIGV+RRPWG F+AE+RDP+RRGARLWLGTY+TPEDAA+AYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +RS EPS +SST+SS N T+++K       ++   GW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_016478305.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 1-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016478305</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.98052e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLN-DSDFSNSFSPMSSSNVATPNS----------PSSSFGSCLLDENIEETT----ILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>MNPA-NATFSFSELDFLQSIENHLLNYDSDFSEIFSPMSSSN-ALPNSPSSSFGSFPSAENSLDTSLWDENFEETIQNLEEKSESEEETKGHVVAREKNATQDWRRYIGVKRRPWGTFSAEIRDPERRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NIPKPARVTARRSRTRSPQPSSSSCTSSSENGTRKRK</Hsp_hseq>
+      <Hsp_midline>MNPA NATFSFS++DFL SIE+HLLN DSDFS  FSPMSSSN A PNS            +S  + L DEN EET           E  +G   ARE+N  Q WRRYIGV+RRPWG F+AEIRDPERRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS N+P+P RVT  R  +RS +PSS+S T+SSENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_049355637.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Solanum verrucosum]</Hit_def>
+  <Hit_accession>XP_049355637</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>7.80172e-70</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>NATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAA-REENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>NTKFSLSDFDFLESVKQHLLNDFDFSEYFSPMNLSNVELPNSPNSSLGSSPSIESHEKS---ESEVEIIKGPMVVEREKNASGDWRRYIGVRRRQWGTFAVEIREPDRKGARLWLGTYETPEDAALAYDQAAFKIRGSKARVNFPHLIGS-NIPEPTRLT-VRHHTHSPKPSAFSS-TSLENGTRKRK</Hsp_hseq>
+      <Hsp_midline>N  FS SD DFL+S++ HLLND DFS  FSPM+ SNV  PNSP+SS GS    E+ E++   ES+ E  +G     RE+N    WRRYIGVRRR WG FA EIR+P+R+GARLWLGTY+TPEDAALAYDQAAFKIRGS+AR+NFPHLIGS N+PEPTR+T +RH++ S +PS+ SS TS ENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_009781921.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 2-like [Nicotiana sylvestris] &gt;ref|XP_016481012.1| PREDICTED: ethylene-responsive transcription factor 2-like [Nicotiana tabacum] &gt;gb|UAA40905.1| APETALA2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_009781921</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>1.94488e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLL----------DENIEETT----ILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQIGWSY</Hsp_qseq>
+      <Hsp_hseq>MNSAD-VTFSFSDFNLLESIKQHLLNDSDFSETLSPMSSSN-GLPNSPSSGFGSSLSAENSFEISLSDQNFEETIPNLEEKSESEEEMKGNVVARENNAPEDWRRYIGVKRRPWGTFSAEMRDPDRRGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTRSPEPLSSSSTSSSVNVPRKRKIDVINSIAKVCHGWNL</Hsp_hseq>
+      <Hsp_midline>MN AD  TFSFSD + L+SI+ HLLNDSDFS + SPMSSSN   PNSPSS FGS L           D+N EET           E  +G   ARE N  + WRRYIGV+RRPWG F+AE+RDP+RRGARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +RS EP S+SST+SS N  +++K       ++   GW+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|NP_001312404.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Nicotiana tabacum] &gt;dbj|BAN58165.1| ethylene response factor 115 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312404</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.86653e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLN-DSDFSNSFSPMSSSNVATPNS----------PSSSFGSCLLDENIEETT------ILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>MNP-NNATFSFSELDFLQSIENHLLNYDSDFSEILSPMSSSN-ALPNSPSSSFGSFPSAENSLDTSLWDENFEETIPNLQLEEKSESEEETKGHVVAREKTTTQDWRRYIGVKRRPWGTFSAEIRDPERRGARLWLGTYETPEDAALAYDQAAFKIRSSRARLNFPHLIGS-NMPKPARVTARRSRTRSPEPSSSSCTSSSEKGTRKRK</Hsp_hseq>
+      <Hsp_midline>MNP +NATFSFS++DFL SIE+HLLN DSDFS   SPMSSSN A PNS            +S  + L DEN EET             E  +G   ARE+ T Q WRRYIGV+RRPWG F+AEIRDPERRGARLWLGTY+TPEDAALAYDQAAFKIR SRARLNFPHLIGS NMP+P RVT  R  +RS EPSS+S T+SSE GT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_009781920.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 1-like [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009781920</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>5.86939e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLN-DSDFSNSFSPMSSSNV---------ATPNSPSSSFGSCLLDENIEETT----ILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>MNPA-NATFSFSELDFLESIENHLLNYDSDFSGFFSTMSSSNALPNSPSSSFGSSPSAESSLDTSLWDENFEEIIPHLEEKSESEEETKGHVVAREKNATQDWRRYIGVKRRPWGTFSAEIRDPERRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRRRSPEPSSSSCTSSSENGTRKRK</Hsp_hseq>
+      <Hsp_midline>MNPA NATFSFS++DFL+SIE+HLLN DSDFS  FS MSSSN           +  S  SS  + L DEN EE            E  +G   ARE+N  Q WRRYIGV+RRPWG F+AEIRDPERRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R   RS EPSS+S T+SSENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|UAA40903.1|</Hit_id>
+  <Hit_def>APETALA2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>UAA40903</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.53124e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLN-DSDFSNSFSPMSSSNV---------ATPNSPSSSFGSCLLDENIEETT----ILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>MNPA-NATFSFSEFDFLESIENHLLNYDSDFSGFFSTMSSSNALPNSPSSSFGSSPSAESSLDTSLWDENFEEIIPHLEEKSESEEETKGHVVAREKNATQDWRRYIGVKRRPWGTFSAEIRDPERRGARLWLGTYETPEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRRRSPEPSSSSCTSSSENGTRKRK</Hsp_hseq>
+      <Hsp_midline>MNPA NATFSFS+ DFL+SIE+HLLN DSDFS  FS MSSSN           +  S  SS  + L DEN EE            E  +G   ARE+N  Q WRRYIGV+RRPWG F+AEIRDPERRGARLWLGTY+TPEDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R   RS EPSS+S T+SSENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MCE5166880.1|</Hit_id>
+  <Hit_def>hypothetical protein [Datura stramonium]</Hit_def>
+  <Hit_accession>MCE5166880</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>1.77088e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MNPADN-ATFS-FSDVDFLDSIEHHLLNDSDFSNSFSPMSS--SNVATPNSPSSSFGSC----------LLDENIEETT-----ILESQSEPE-----EGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTG</Hsp_qseq>
+      <Hsp_hseq>MNPIDDHKTFSSFSDFDLLESIKQHLLNDSDFSELFSPMMSYSSNVEVPNSPTSSFGSSENSVVDDDSFLLPKNIEETTPTQHPSVESRHKFESEDQTRGTAAARDEDAPRDWRRYIGVRRRQWGTFAAEIRDPNRKGARLWLGTYQTPEDAAMAYDEAAFKMRGSKARLNFPHLAGS-NIPKPARVKG</Hsp_hseq>
+      <Hsp_midline>MNP D+  TFS FSD D L+SI+ HLLNDSDFS  FSPM S  SNV  PNSP+SSFGS           LL +NIEETT      +ES+ + E      G  AAR+E+  + WRRYIGVRRR WG FAAEIRDP R+GARLWLGTYQTPEDAA+AYD+AAFK+RGS+ARLNFPHL GS N+P+P RV G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_016544939.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2 [Capsicum annuum] &gt;gb|KAF3657879.1| Ethylene-responsive transcription factor 2 [Capsicum annuum] &gt;gb|KAF3661517.1| Ethylene-responsive transcription factor 2 [Capsicum annuum] &gt;gb|PHT95379.1| Ethylene-responsive transcription factor 2 [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016544939</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.96467e-65</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>NPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMS--SSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>NPADAAFFSLSEFDLLESIKQHLLNDSDFSEFFSSMSYSSNNFELPNSPNSSFGSSPSTGSHEKS---ESEEDTNVPTVAAREEKVSGDWTRYIGVRRRQWGTFAAEIRDPNRKGARSWLGTYQTPEDAALAYDQAAFKIRGSKARLNFPHLIGS-NMPEPARLTA-RRRTRSPEPSDASS-TSSENGTRKRK</Hsp_hseq>
+      <Hsp_midline>NPAD A FS S+ D L+SI+ HLLNDSDFS  FS MS  S+N   PNSP+SSFGS     + E++   ES+ +      AAREE     W RYIGVRRR WG FAAEIRDP R+GAR WLGTYQTPEDAALAYDQAAFKIRGS+ARLNFPHLIGS NMPEP R+T  R  +RS EPS  SS TSSENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_016456149.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 13-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016456149</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.29682e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPE</Hsp_qseq>
+      <Hsp_hseq>MNPADNATFSFSDLDFLDSIDHHLLINSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTTPESQSKPEEQTQGGKAARERNTNQDWRRYIGVRQRPWGKFAAEIRDPDRRGARLWLGTYETPE</Hsp_hseq>
+      <Hsp_midline>MNPADNATFSFSD+DFLDSI+HHLL +SDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETT  ESQS+PEE   GGKAARE NT Q WRRYIGVR+RPWGKFAAEIRDP+RRGARLWLGTY+TPE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|PHT58786.1|</Hit_id>
+  <Hit_def>hypothetical protein CQW23_01149 [Capsicum baccatum]</Hit_def>
+  <Hit_accession>PHT58786</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>8.72622e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMS-SSNVATPNSPSSSFGSCLLDENIEETTILESQSEP-------EEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIR</Hsp_qseq>
+      <Hsp_hseq>MNPVDDESFS-SDFDLLESIKQHLLNDSDFSDFFSPMSHSNNLDSPNSPSSSLVST--QNSLEEITVLQSRQDPSLESEDRKRGLEVAHQEAAPGDWRRYIGVRRRQWGTFAAEIRDPNRKGARLWLGTYEKPEDAALAYDQAAFKMRGSKARLNFPHLIGP-DMPMLVRVKGSR</Hsp_hseq>
+      <Hsp_midline>MNP D+ +FS SD D L+SI+ HLLNDSDFS+ FSPMS S+N+ +PNSPSSS  S     ++EE T+L+S+ +P       + G + A +E     WRRYIGVRRR WG FAAEIRDP R+GARLWLGTY+ PEDAALAYDQAAFK+RGS+ARLNFPHLIG  +MP   RV G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_019232808.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 1-like [Nicotiana attenuata] &gt;gb|OIT27803.1| ethylene-responsive transcription factor 1 [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019232808</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>1.29973e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLN-DSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETT-ILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>MNPV-NATFSFSELDFLE-IENHLLNYDSDFS-GLPNSPSSSFGSSPSAENSLDTSLWDENFEETIPHLEEKSESDEETKGHVVARETNAPQDWRRYIGVRRRPWGKFAAEIRDPERKGARLWLGTYETPEDAASAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRRRSPEPSSSSCTSSSENGTRKRK</Hsp_hseq>
+      <Hsp_midline>MNP  NATFSFS++DFL+ IE+HLLN DSDFS       SS+  +  S  +S  + L DEN EET   LE +SE +E   G   ARE N  Q WRRYIGVRRRPWGKFAAEIRDPER+GARLWLGTY+TPEDAA AYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R   RS EPSS+S T+SSENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_027769870.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_027769870</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>8.75087e-62</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>NATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGK--AAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>NMKFSLSDFDFLKSVKQHFLNDFDCSEYFSPMNLNNVELPNSALSSLGSSLSIESHEK---FEYEEEIIKGPNMVVAREKNTPGDWRRYIGVRRRQWGTFTAEIRDPNRKGARLWLGTYETPEDAALAYDQAAFKIRGSRARVNFPHLIGS-NMPKPARLK-VRHHTRSRKPSSFSS-TSLINGTRKRK</Hsp_hseq>
+      <Hsp_midline>N  FS SD DFL S++ H LND D S  FSPM+ +NV  PNS  SS GS L  E+ E+    E + E  +G     ARE+NT   WRRYIGVRRR WG F AEIRDP R+GARLWLGTY+TPEDAALAYDQAAFKIRGSRAR+NFPHLIGS NMP+P R+  +RH++RS +PSS SS TS  NGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|ADH04266.1|</Hit_id>
+  <Hit_def>ERF1 [Nicotiana benthamiana]</Hit_def>
+  <Hit_accession>ADH04266</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.92983e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNS----------PSSSFGSCLLDENIEETT----ILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQIGWS</Hsp_qseq>
+      <Hsp_hseq>MNSAD-VTFSFSDFNLLESIKQHLLNDSDFSEIISPMSSSN-ALPNSPSSGFGSSPSAENSFEISLWAENFEETIPNLEEKCESEEETKGNVVARENNAPQDWRRYIGVKRRPWGTFSAEIRDPNRRGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMRKPARVTERRSRTRSPEPSSSSSTSSSVNVPRKRKIDVINSIATVCHGWN</Hsp_hseq>
+      <Hsp_midline>MN AD  TFSFSD + L+SI+ HLLNDSDFS   SPMSSSN A PNS            +SF   L  EN EET           E  +G   ARE N  Q WRRYIGV+RRPWG F+AEIRDP RRGARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NM +P RVT  R  +RS EPSS+SST+SS N  +++K       +    GW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_055815052.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Solanum dulcamara]</Hit_def>
+  <Hit_accession>XP_055815052</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>2.67354e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSS--NVATPNSPSSSFGSC---LLDEN-----IEETTILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTG</Hsp_qseq>
+      <Hsp_hseq>MNPIDDETFS-SNFDFLESIKQHLLNDSDFSKFFSPMSYSISNVELPNSPTSSFGSGGNPFLSETTPSKYVESLDKFDSEDQ-TPGPVMARDEHAPQDWRSYIGVRRRKWGTFAAEIRDPNRKGARLWLGTYETSEDAAVAYDEAAFKLRGSKARLNFPHLAGS-NISKPARVKG</Hsp_hseq>
+      <Hsp_midline>MNP D+ TFS S+ DFL+SI+ HLLNDSDFS  FSPMS S  NV  PNSP+SSFGS     L E      +E     +S+ +   G   AR+E+  Q WR YIGVRRR WG FAAEIRDP R+GARLWLGTY+T EDAA+AYD+AAFK+RGS+ARLNFPHL GS N+ +P RV G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_019071299.2|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>XP_019071299</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>2.68005e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>NATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGK--AAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>NMKFSLSDFDFLESVKQHLLNDFDFFKYFSPMNLNNVELPNSAISSLGSSLSIESHEK---FEYEEEIIKGPNMVVARQKNTPEDWRRYIGVRRRQWGTFTAEIRDPNKKGARLWLGTYETPEDAALAYDQAAFKIRGSRARVNFPHLIGS-NMPKPARLK-VRHHTSSLK-PSSFSSTSLKNGIRKKK</Hsp_hseq>
+      <Hsp_midline>N  FS SD DFL+S++ HLLND DF   FSPM+ +NV  PNS  SS GS L  E+ E+    E + E  +G     AR++NT + WRRYIGVRRR WG F AEIRDP ++GARLWLGTY+TPEDAALAYDQAAFKIRGSRAR+NFPHLIGS NMP+P R+  +RH++ SL+  S+ S+TS +NG ++KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|KAH0670901.1|</Hit_id>
+  <Hit_def>hypothetical protein KY289_025394 [Solanum tuberosum] &gt;gb|KAH0674777.1| hypothetical protein KY284_025864 [Solanum tuberosum] &gt;gb|KAH0677360.1| hypothetical protein KY285_025161 [Solanum tuberosum] &gt;gb|KAH0756074.1| hypothetical protein KY290_026344 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0670901</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>7.82395e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEGGKAAREENT---KQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKYRGHKFYSQSQ-IGWSYPRPRDINITIRKE</Hsp_qseq>
+      <Hsp_hseq>MNPVDDEIFS-SDFDLLESMKQYLLNDFDFSEFFSP--SNNVELPNSPTSSFGS-VGNTFLVETTPTKDQTR---GPVVARDEHQHVPEDDWRRYIGVRRRQWGTFAAEIRDPNRKGARLWLGTYETPKDAALAYDEAAFKIRGSKARLNFPHLAGS-NISKPARVKGSRCLPSPSS-SSLSSSSTSENGARKRKIDVINSIAKAKLVCHSLIKFTDVGITLSKE</Hsp_hseq>
+      <Hsp_midline>MNP D+  FS SD D L+S++ +LLND DFS  FSP  S+NV  PNSP+SSFGS + +  + ETT  + Q+    G   AR+E+    +  WRRYIGVRRR WG FAAEIRDP R+GARLWLGTY+TP+DAALAYD+AAFKIRGS+ARLNFPHL GS N+ +P RV G R        SS SS+++SENG +++K       ++++ +  S  +  D+ IT+ KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|PHT58784.1|</Hit_id>
+  <Hit_def>Ethylene-responsive transcription factor 2 [Capsicum baccatum]</Hit_def>
+  <Hit_accession>PHT58784</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>3.63813e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENI-EETTILESQSEPE-------EGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPFDQ-NCSFSEIS------------SDFSKSFSPMNSSNATPNNSPSSSFDSFLWDENINEETMYLQSHKKPKPGHKDKMQGPREAREESTRQDWRRYRGVRRRPWGKFAAEIRDPDRRRKRLWLGTYETSEDAALAYDQAAFKMHGSKARLNFPHLIGP-NMPEPPRVTA-RRCSRSLEPKPPSSSPSSENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNP D    SFS++             SDFS SFSPM+SSN    NSPSSSF S L DENI EET  L+S  +P+       +G + AREE+T+Q WRRY GVRRRPWGKFAAEIRDP+RR  RLWLGTY+T EDAALAYDQAAFK+ GS+ARLNFPHLIG  NMPEP RVT  R  SRSLEP   SS+ SSENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_016557636.2|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 1-like [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016557636</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>8.93701e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENI-EETTILESQSEPEEGGK--------AAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPFDQ-NCSFSEIS------------SDFSKSFSPMNSSNATPNNSPSSSFDSFLWDENINEETMYLQSHKKPKPGHKDKMQGPREEAREESTRQDWRRYRGVRRRPWGKFAAEIRDPDRRRKRLWLGTYETSEDAALAYDQAAFKMHGSKARLNFPHLIGP-NMPEPPRVTA-RRCSRSLEPKPPSSSPSSENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNP D    SFS++             SDFS SFSPM+SSN    NSPSSSF S L DENI EET  L+S  +P+ G K         AREE+T+Q WRRY GVRRRPWGKFAAEIRDP+RR  RLWLGTY+T EDAALAYDQAAFK+ GS+ARLNFPHLIG  NMPEP RVT  R  SRSLEP   SS+ SSENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|NP_001312507.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Nicotiana tabacum] &gt;ref|XP_009625878.1| ethylene-responsive transcription factor 13-like [Nicotiana tomentosiformis] &gt;dbj|BAN57618.1| ethylene response factor 189 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312507</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.11569e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLL-----DENIEETTILESQ-------SEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRG--ARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSR</Hsp_qseq>
+      <Hsp_hseq>MNLADETLF-FSESHLLESIKQHLLDDSDFSEIFSPMSSSNEILPNSPSSSFSSFDCSFLNWDENFEETLIPTDQNPSHEKCSESEEQTQGPAVVREKNAPRDWTRYIGVKRRPWGTFSAETRDPSRKGEGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTR</Hsp_hseq>
+      <Hsp_midline>MN AD   F FS+   L+SI+ HLL+DSDFS  FSPMSSSN   PNSPSSSF S        DEN EET I   Q       SE EE   G    RE+N  + W RYIGV+RRPWG F+AE RDP R+G  ARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_019263102.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 1-like [Nicotiana attenuata] &gt;gb|OIT07985.1| ethylene-responsive transcription factor 13 [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019263102</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>4.64926e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLL-------DENIEETTILESQ----------SEPEEGGKA---AREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRG--ARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSR</Hsp_qseq>
+      <Hsp_hseq>MNPADETLFFSESHHLLESIKQHLLDDSDFSEIFSPMSSSNEILPNSPSSSFSSFDFDCSFLNWDENFEETLIPTDQNPSHESHEKYSESEEKTQAPAVARERNAPRDWTRYIGVKRRPWGTFSAETRDPSRKGEGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTR</Hsp_hseq>
+      <Hsp_midline>MNPAD   F       L+SI+ HLL+DSDFS  FSPMSSSN   PNSPSSSF S          DEN EET I   Q          SE EE  +A   ARE N  + W RYIGV+RRPWG F+AE RDP R+G  ARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_016557634.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 1 [Capsicum annuum] &gt;gb|KAF3657882.1| Ethylene-responsive transcription factor 1 [Capsicum annuum] &gt;gb|KAF3661520.1| Ethylene-responsive transcription factor 1 [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016557634</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>5.40597e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMS-SSNVATPNSPSSSFGSCLLDENIEETTILESQSEP-------EEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIR</Hsp_qseq>
+      <Hsp_hseq>MNPVDDEIFS-SDFDLLESIKQHLLSDSDFSDFFSPMSHSNNLDSPNSPSSSLGST--QNSLEEITVLQSPQDPSLESEDRKRGLEVARQEAAPGDWMRYIGVRRRQWGTFAAEIRDPNRKGARLWLGTYEKPEDAALAYDQAAFKMRGSKARLNFPHLIGP-DMPMLVRVKGSR</Hsp_hseq>
+      <Hsp_midline>MNP D+  FS SD D L+SI+ HLL+DSDFS+ FSPMS S+N+ +PNSPSSS GS     ++EE T+L+S  +P       + G + AR+E     W RYIGVRRR WG FAAEIRDP R+GARLWLGTY+ PEDAALAYDQAAFK+RGS+ARLNFPHLIG  +MP   RV G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|PHU29559.1|</Hit_id>
+  <Hit_def>Ethylene-responsive transcription factor 2 [Capsicum chinense]</Hit_def>
+  <Hit_accession>PHU29559</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>5.75902e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMS-SSNVATPNSPSSSFGSCLLDENIEETTILESQSEP-------EEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIR</Hsp_qseq>
+      <Hsp_hseq>MNPVDDEIFS-SDFDLLESIKQHLLSDSDFSDFFSPMSHSNNLDSPNSPSSSLGST--QNSLEEITVLQSPQDPSLESEDRKRGLEVARQEAAPGDWMRYIGVRRRQWGTFAAEIRDPNRKGARLWLGTYEKPEDAALAYDQAAFKMRGSKARLNFPHLIGP-DMPMLVRVKGSR</Hsp_hseq>
+      <Hsp_midline>MNP D+  FS SD D L+SI+ HLL+DSDFS+ FSPMS S+N+ +PNSPSSS GS     ++EE T+L+S  +P       + G + AR+E     W RYIGVRRR WG FAAEIRDP R+GARLWLGTY+ PEDAALAYDQAAFK+RGS+ARLNFPHLIG  +MP   RV G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_016436953.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 13-like [Nicotiana tabacum] &gt;gb|UAA40906.1| APETALA2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016436953</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>6.63837e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLL-------DENIEETTILESQ----------SEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRG--ARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSR</Hsp_qseq>
+      <Hsp_hseq>MNPADETLF-FSDSHLLESIKQHLLDDSDFSEIFSSMNSSNEILPNSPSSSFSSFDFDCSFLNWDENSEETLIPTDQNPSHESHEKYSESEEKTQGPGVAREKNAPRDWTRYIGVKRRPWGTFSAETRDPSRKGEGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTR</Hsp_hseq>
+      <Hsp_midline>MNPAD   F FSD   L+SI+ HLL+DSDFS  FS M+SSN   PNSPSSSF S          DEN EET I   Q          SE EE   G   ARE+N  + W RYIGV+RRPWG F+AE RDP R+G  ARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAJ8573384.1|</Hit_id>
+  <Hit_def>hypothetical protein K7X08_009895 [Anisodus acutangulus]</Hit_def>
+  <Hit_accession>KAJ8573384</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.04859e-55</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>ADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEE---GGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKK</Hsp_qseq>
+      <Hsp_hseq>ADDETFSLPDLDSLESIKQHLLNDSDFYEQFSPMSTSN--------SPFLPNSPSSSTSVASHVKPEPEPAEETNGPVVAREKNAP--WRRYIGVRRRQWGTFSAEIRDPNRRGARLWLGTYETPEDAALAYDEAAFKIRGSKARVNFPHLIGS-DMPKPARVIA-RRRARSPEP-STSPSASLENGTRKRK</Hsp_hseq>
+      <Hsp_midline>AD+ TFS  D+D L+SI+ HLLNDSDF   FSPMS+SN        S F       +    + ++ + EP E   G   ARE+N    WRRYIGVRRR WG F+AEIRDP RRGARLWLGTY+TPEDAALAYD+AAFKIRGS+AR+NFPHLIGS +MP+P RV   R  +RS EP STS + S ENGT+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|PHU29561.1|</Hit_id>
+  <Hit_def>Ethylene-responsive transcription factor 2 [Capsicum chinense]</Hit_def>
+  <Hit_accession>PHU29561</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.17076e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENI-EETTILESQSEPE-------EGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPFDQ-NCSFSEIS------------SDFSKSFSLMNSSNATPNNSPSSSFDSFLWDENINEETMYLQSHKKPKPGHKDKMQGPREAREESTRQDWRRYRGVRRRPWGKFAAEIRDPDRRRKRLWLGTYETSEDAALAYDQAAFKMHGSKARLNFPHLIGP-NMPEPPRVTA-RRCSRSLEPKPPSSSPSSENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNP D    SFS++             SDFS SFS M+SSN    NSPSSSF S L DENI EET  L+S  +P+       +G + AREE+T+Q WRRY GVRRRPWGKFAAEIRDP+RR  RLWLGTY+T EDAALAYDQAAFK+ GS+ARLNFPHLIG  NMPEP RVT  R  SRSLEP   SS+ SSENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_009794568.1|</Hit_id>
+  <Hit_def>PREDICTED: ethylene-responsive transcription factor 13-like [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009794568</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.96614e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLL-------DENIEETTILESQ----------SEPEEGGKA---AREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRG--ARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSR</Hsp_qseq>
+      <Hsp_hseq>MNPADETLF-FSDSHLLESIKQHLLDDSDFSEIFSSMNSSNEILPNSPSSSFSSFDFDCSFLNWDENSEETLIPTDQNPSHESHEKYSESEEKTQCPGVAREKNAPRDWTRYIGVKRRPWGTFSAETRDPSRKGEGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTR</Hsp_hseq>
+      <Hsp_midline>MNPAD   F FSD   L+SI+ HLL+DSDFS  FS M+SSN   PNSPSSSF S          DEN EET I   Q          SE EE  +    ARE+N  + W RYIGV+RRPWG F+AE RDP R+G  ARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|TMX01517.1|</Hit_id>
+  <Hit_def>hypothetical protein EJD97_024347 [Solanum chilense]</Hit_def>
+  <Hit_accession>TMX01517</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>4.7923e-54</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPE---EGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDIPNIFSAIDSNNTPT-NFTQNNFDYGELTPLINSSTTLQANEKPEVEESETMVASVKHAPQDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPEPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSD  N FS + S+N  T N   ++F    L   I  +T L++  +PE        A  ++  Q W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +PEP RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|PHT95382.1|</Hit_id>
+  <Hit_def>Ethylene-responsive transcription factor 1 [Capsicum annuum]</Hit_def>
+  <Hit_accession>PHT95382</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.70203e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMS-SSNVATPNSPSSSFGSCLLDENIEETTILESQSEP----EEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIR</Hsp_qseq>
+      <Hsp_hseq>MNPVDDEIFS-SDFDLLESIKQHLLSDSDFSDFFSPMSHSNNLDSPNSPSSSLGST--QNSLEEITVLQSPQDPSLESEDRKRGLEXXAAPGDWMRYIGVRRRQWGTFAAEIRDPNRKGARLWLGTYEKPEDAALAYDQAAFKMRGSKARLNFPHLIGP-DMPMLVRVKGSR</Hsp_hseq>
+      <Hsp_midline>MNP D+  FS SD D L+SI+ HLL+DSDFS+ FSPMS S+N+ +PNSPSSS GS     ++EE T+L+S  +P    E+  +          W RYIGVRRR WG FAAEIRDP R+GARLWLGTY+ PEDAALAYDQAAFK+RGS+ARLNFPHLIG  +MP   RV G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_049355628.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like [Solanum verrucosum]</Hit_def>
+  <Hit_accession>XP_049355628</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.97016e-53</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>NATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEG--GKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKE</Hsp_qseq>
+      <Hsp_hseq>NTEFSLFDFDFLESVKQHLLNDFDFFEYFSPMNLSNVELSNNPNSSFGSSPSIESHEKS---ESEVEIIKGPSMVVAREKNTSGDWRRYIGVRRRQWGMFTTEVRDPDRKGARLWLVTYETPED-------ATFKIRGSKARVNFSHLIDS-NMPEPARLT-VRHRTRS-PKSSAFSFTSLENGTRK</Hsp_hseq>
+      <Hsp_midline>N  FS  D DFL+S++ HLLND DF   FSPM+ SNV   N+P+SSFGS    E+ E++   ES+ E  +G     ARE+NT   WRRYIGVRRR WG F  E+RDP+R+GARLWL TY+TPED       A FKIRGS+AR+NF HLI S NMPEP R+T +RH +RS   SS  S TS ENGT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_049356013.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Solanum verrucosum]</Hit_def>
+  <Hit_accession>XP_049356013</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>2.24757e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILES--QSEPEEG-GKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDIPHIFSAIDSNNTPT-NFTQNNFDYGELTPLINPSTTLQANEKSEVEESKAVVASVTHAPQDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GMPEPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSD  + FS + S+N  T N   ++F    L   I  +T L++  +SE EE     A   +  Q W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  MPEP RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|KAH0674251.1|</Hit_id>
+  <Hit_def>hypothetical protein KY284_025338 [Solanum tuberosum] &gt;gb|KAH0677358.1| hypothetical protein KY285_025159 [Solanum tuberosum] &gt;gb|KAH0731111.1| hypothetical protein KY289_002299 [Solanum tuberosum] &gt;gb|KAH0756072.1| hypothetical protein KY290_026342 [Solanum tuberosum] &gt;gb|KAH0766155.1| hypothetical protein KY285_002026 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0674251</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>3.28944e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILES--QSEPEEG-GKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDIPHIFSAIDSNNTPT-NFTQNNFDYGELTPLINPSTTLQANEKSEVEESKAVAASVTHAPQDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPEPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSD  + FS + S+N  T N   ++F    L   I  +T L++  +SE EE    AA   +  Q W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +PEP RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_055815055.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Solanum dulcamara]</Hit_def>
+  <Hit_accession>XP_055815055</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>3.64752e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVAT------PNSPSSSFGSCLLDENIE-ETTILESQSEPEEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSST</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDIPHIFSVIDSNNSPTSSFSNSPNSTQNNFDYGELTPLINPTTTTLESPEKPEETVAAESVTHAPQDWKRYRGVRRRPWGKFAAEIRDPNKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPEPARVNPRR---RSHSPESS</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSD  + FS + S+N  T      PNS  ++F    L   I   TT LES  +PEE   A    +  Q W+RY GVRRRPWGKFAAEIRDP ++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +PEP RV   R   RS  P S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_015088706.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_015088706</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>6.05005e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPE---EGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQYHLLNDSDIPNIFSAIDSNNTPT-NFTQNNFDYGELTPLINSSTTLQANEKPEVEESETVVASVKHAPQDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPEPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI++HLLNDSD  N FS + S+N  T N   ++F    L   I  +T L++  +PE        A  ++  Q W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +PEP RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|NP_001353048.1|</Hit_id>
+  <Hit_def>jasmonate-responsive ERF 2 [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>NP_001353048</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>6.4582e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILES--QSEPEEGGKA-AREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDFPNIFSAIDSNNTPT-DFTQNNFDYGELTPLINSSTTLQANEKSEVEESETVVASVKHAPKDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPEPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSDF N FS + S+N  T +   ++F    L   I  +T L++  +SE EE     A  ++  + W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +PEP RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_049401075.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Solanum stenotomum]</Hit_def>
+  <Hit_accession>XP_049401075</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>9.04893e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILES--QSEPEEG-GKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDIPHIFSAIDSNNTPT-NFTQNNFDYGELTPLINPSTTLQANEKSEVEESKAMVASVTHAPQDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPEPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSD  + FS + S+N  T N   ++F    L   I  +T L++  +SE EE     A   +  Q W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +PEP RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>dbj|BBI36971.1|</Hit_id>
+  <Hit_def>ethylene responsive transcription factor, partial [Nicotiana langsdorffii]</Hit_def>
+  <Hit_accession>BBI36971</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>2.72959e-52</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>FSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSN----VATPNSPSSSFGSCLLDENIEETTILESQ----------SEPEEGGKA---AREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRG--ARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSR</Hsp_qseq>
+      <Hsp_hseq>FLFESHDLLESIKQHLLDDSDFSEIFSPMSSSNEMPHSPSSSFSSFDCSFLNWDENFEETLIPTDQNPSNESHEKYSESEEQTQVPAVARERNAPRDWTRYIGVKRRPWGTFSAETRDPSRKGEGARLWLGTYETAEDAALAYDQAAFKIRGSRARLNFPHLIGS-NMPKPARVTARRSRTR</Hsp_hseq>
+      <Hsp_midline>F F   D L+SI+ HLL+DSDFS  FSPMSSSN      + +  S        DEN EET I   Q          SE EE  +    ARE N  + W RYIGV+RRPWG F+AE RDP R+G  ARLWLGTY+T EDAALAYDQAAFKIRGSRARLNFPHLIGS NMP+P RVT  R  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_009593489.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like [Nicotiana tomentosiformis] &gt;ref|XP_016511096.1| PREDICTED: ethylene-responsive transcription factor 13-like [Nicotiana tabacum] &gt;dbj|BAN58168.1| ethylene response factor 163 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_009593489</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>7.82251e-52</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDEN----------IEETTI-LESQSEPEEGGK----AAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>ADLSLLESIQHHLLNDSNIPDIFSAMDS------NSPSSTFSNSPSTENNFYYGELTPLINPTLVATEKFHEFEETNNTETVAASVANAPQDWKRYRGVRRRPWGKFAAEIRDPNKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLVGS-GMPEPARVNPRR---RSHSPES-----SSENGTPRKLF</Hsp_hseq>
+      <Hsp_midline>+D+  L+SI+HHLLNDS+  + FS M S      NSPSS+F +    EN          I  T +  E   E EE       AA   N  Q W+RY GVRRRPWGKFAAEIRDP ++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHL+GS  MPEP RV   R   RS  P S     SSENGT  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAG5627020.1|</Hit_id>
+  <Hit_def>hypothetical protein H5410_012238 [Solanum commersonii]</Hit_def>
+  <Hit_accession>KAG5627020</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>7.88467e-52</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>SDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILES--QSEPEEGGKA-AREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEKKY</Hsp_qseq>
+      <Hsp_hseq>SDFSLLQSIQHHLLNDSDIPHIFSAIDSNNTPT-NFTQNNFDYGELTPLINPSTTLQANEKSEVEESKVVVASVTHAPQDWKRYRGVRRRPWGKFAAEIRDPDKKNARLWLGTYETPEDAALAYDQAAFKIRGSKARLNFPHLIGS-GVPKPARVNPRR---RSHSPES-----SCENGTPRKLY</Hsp_hseq>
+      <Hsp_midline>SD   L SI+HHLLNDSD  + FS + S+N  T N   ++F    L   I  +T L++  +SE EE     A   +  Q W+RY GVRRRPWGKFAAEIRDP+++ ARLWLGTY+TPEDAALAYDQAAFKIRGS+ARLNFPHLIGS  +P+P RV   R   RS  P S     S ENGT  K Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_049386050.1|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 2-like, partial [Solanum stenotomum]</Hit_def>
+  <Hit_accession>XP_049386050</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>9.82877e-52</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>NATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPEEG--GKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKE</Hsp_qseq>
+      <Hsp_hseq>NMEFSLSDFNFLESVKQHLLNDFDFFEYFSPMNLSNVELSNSPNSSLGSSPPIESHEKS---ESEVEIIKGPSMVVAREKITSGDWRRYIGVRQRQWGTFTAEVRDPNRKGTRLWLGTYKTSED-------ATFKIRGSKARVNFSHLIGS-NMPEPARLT-VRHRTRS-PKSSAFSFTSLENGTRK</Hsp_hseq>
+      <Hsp_midline>N  FS SD +FL+S++ HLLND DF   FSPM+ SNV   NSP+SS GS    E+ E++   ES+ E  +G     ARE+ T   WRRYIGVR+R WG F AE+RDP R+G RLWLGTY+T ED       A FKIRGS+AR+NF HLIGS NMPEP R+T +RH +RS   SS  S TS ENGT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_009589160.2|</Hit_id>
+  <Hit_def>ethylene-responsive transcription factor 13-like, partial [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009589160</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.68779e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEP------EEGGKAAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTG</Hsp_qseq>
+      <Hsp_hseq>MNPADE-TLSFSDLDFLESIKQNLLNDPIFFENFS-----NDALSNSPSSS-----LEENSFNTSLCDENCENSESEEERKGPMEAREKNAPQDWRRYIGVRRPQWGTFTAEIRDPNRRGARLWLGTYESPEDVKLAYNQAAFEIRGSKARLNFPHLIGS-NITKPARVTA</Hsp_hseq>
+      <Hsp_midline>MNPAD  T SFSD+DFL+SI+ +LLND  F  +FS     N A  NSPSSS     L+EN   T++ +   E        +G   ARE+N  Q WRRYIGVRR  WG F AEIRDP RRGARLWLGTY++PED  LAY+QAAF+IRGS+ARLNFPHLIGS N+ +P RVT </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|MCD7451503.1|</Hit_id>
+  <Hit_def>hypothetical protein [Datura stramonium]</Hit_def>
+  <Hit_accession>MCD7451503</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>2.77071e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MNPADNATFSFSDVDFLDSIEHHLLNDSDFSNSFSPMSSSNVATPNSPSSSFGSCLLDENIEETTILESQSEPE---EGGK-AAREENTKQYWRRYIGVRRRPWGKFAAEIRDPERRGARLWLGTYQTPEDAALAYDQAAFKIRGSRARLNFPHLIGSNNMPEPTRVTGIRHNSRSLEPSSTSSTTSSENGTKEK</Hsp_qseq>
+      <Hsp_hseq>MNPIDE-TFSFF-AEF----------NSDFSKSFSPMSSGN--------ASFDSFLWDENINEELESDEKLELEDKMEGPRVAAREENTRQDWRRYRGVRRRPWGKFAAEIRDPNRRRKRLWLGTYETSEDAALAYDQAAFKIHGSKARLNFPHLIGS-NMPEPARVTA-RRRSRSMEPAPSS---SAENGTRKR</Hsp_hseq>
+      <Hsp_midline>MNP D  TFSF   +F          +SDFS SFSPMSS N        +SF S L DENI E    + + E E   EG + AAREENT+Q WRRY GVRRRPWGKFAAEIRDP RR  RLWLGTY+T EDAALAYDQAAFKI GS+ARLNFPHLIGS NMPEP RVT  R  SRS+EP+ +S   S+ENGT+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>543378040</Statistics_db-num>
+      <Statistics_db-len>543105808</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

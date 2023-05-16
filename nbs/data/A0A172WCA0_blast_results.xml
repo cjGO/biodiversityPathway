@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.14.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4931</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>154</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4931</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>154</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|ANF07088.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase, partial [Nicotiana benthamiana] &gt;gb|ANF07090.1| nicotine N-demethylase, partial [Nicotiana velutina]</Hit_def>
+  <Hit_accession>ANF07088</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>2.98414e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|ANF07091.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase, partial [Nicotiana cavicola]</Hit_def>
+  <Hit_accession>ANF07091</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.997</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>7.75516e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDMFDPERFIASDIDFRGHHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+MFDP+RFIA+DIDFRGHHYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ANF07089.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase, partial [Nicotiana gossei]</Hit_def>
+  <Hit_accession>ANF07089</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>3.1914e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>AQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>AQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPETFDPERFIASDIDFRGHHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>AQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKLWSNPE FDP+RFIA+DIDFRGHHYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_016441406.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 82C4-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016441406</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.7322e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIQDLVYLQAIVKEVLRLYPPGPLLIPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFIAGDIDFRGQHYEFIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDKPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDI+DLVYLQAIVKEVL+LYPPGPLL+PH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RFIA DIDFRG HYE+IPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPND+PLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_009758062.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 82C4-like, partial [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009758062</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>1.9988e-99</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFIAGDIDFRGHHYEFIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYKTPNDEALDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RFIA DIDFRGHHYE+IPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ABR57311.1|</Hit_id>
+  <Hit_def>cytochrome P450 monooxygenase [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>ABR57311</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>3.2979e-99</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFIAGDIDFRGHHYEFIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYKTPNDEALDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RFIA DIDFRGHHYE+IPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>dbj|BAM36725.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase [Nicotiana alata]</Hit_def>
+  <Hit_accession>BAM36725</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>2.02133e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFIAGDIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPTNEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RFIA DIDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTP +EPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_009609539.1|</Hit_id>
+  <Hit_def>xanthotoxin 5-hydroxylase CYP82C4 [Nicotiana tomentosiformis] &gt;sp|A1YJE3.1| RecName: Full=Nicotine N-demethylase CYP82E4; Short=NND; AltName: Full=Cytochrome P450 82E4; Short=NtomCYP82E4 [Nicotiana tomentosiformis] &gt;gb|ABM46920.1| cytochrome P450 monooxygenase CYP82E4 [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009609539</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>2.10558e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ABA07804.1|</Hit_id>
+  <Hit_def>cytochrome P450 monooxygenase CYP82E4v2 [Nicotiana tabacum] &gt;gb|ABB36475.1| nicotine demethylase [Nicotiana tabacum] &gt;gb|ABN42695.1| cytochrome P450 CYP82E4v2 nicotine demethylase [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABA07804</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>2.73125e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|ABD39475.1|</Hit_id>
+  <Hit_def>CYP82E4v4 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39475</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>2.88337e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|ABD39478.1|</Hit_id>
+  <Hit_def>CYP82E4v7 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39478</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>2.9148e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|Q38Q87.2|</Hit_id>
+  <Hit_def>RecName: Full=Nicotine N-demethylase CYP82E4; Short=NND; AltName: Full=Cytochrome P450 82E4; Short=NtCYP82E4; Short=NtabCYP82E4 [Nicotiana tabacum] &gt;gb|ABA07805.1| cytochrome P450 monooxygenase CYP82E4v1 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>Q38Q87</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>3.78089e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|ABD39479.1|</Hit_id>
+  <Hit_def>CYP82E4v8 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39479</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.30086e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFVNVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LF NVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ABD39481.1|</Hit_id>
+  <Hit_def>CYP82E4v11 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39481</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.3733e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTIAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLT+AHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|ABD39476.1|</Hit_id>
+  <Hit_def>CYP82E4v5 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39476</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.4034e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVVKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANV+KLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_009609537.1|</Hit_id>
+  <Hit_def>xanthotoxin 5-hydroxylase CYP82C4 [Nicotiana tomentosiformis] &gt;sp|A1YJE2.1| RecName: Full=Nicotine N-demethylase CYP82E3; Short=NND; AltName: Full=Cytochrome P450 82E3; Short=NtomCYP82E3 [Nicotiana tomentosiformis] &gt;gb|ABM46919.1| cytochrome P450 monooxygenase CYP82E3 [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009609537</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.49081e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFNPERFIARDIDFHGQHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPTDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ F+P+RFIA DIDF G HYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTP DEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_001312992.1|</Hit_id>
+  <Hit_def>cytochrome P450 82E3 [Nicotiana tabacum] &gt;sp|Q38Q84.1| RecName: Full=Cytochrome P450 82E3; Short=NtabCYP82E3 [Nicotiana tabacum] &gt;gb|ABA07807.1| cytochrome P450 monooxygenase CYP82E3 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312992</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.60831e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFNPERFIARDIDFHGQHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPTDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ F+P+RFIA DIDF G HYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTP DEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ABD39474.1|</Hit_id>
+  <Hit_def>CYP82E4v3 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39474</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>2.80814e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPSDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEP DMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|ABD39480.1|</Hit_id>
+  <Hit_def>CYP82E4v10 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39480</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>2.90094e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIGFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDI FRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ABD39483.1|</Hit_id>
+  <Hit_def>CYP82E2v2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39483</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.286</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>7.77715e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKKVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLLSNPDKFDPERFIAGDIDFRGHHYEFIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYKTPNDEALDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVK+VL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKL SNP+ FDP+RFIA DIDFRGHHYE+IPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|NP_001312052.1|</Hit_id>
+  <Hit_def>cytochrome P450 82C4-like [Nicotiana tabacum] &gt;gb|ABA07806.2| cytochrome P450 monooxygenase CYP82E2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312052</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>9.45214e-97</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKKVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLLSNPDKFDPERFIAGDIDFRGHHYEFIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYKTPNDEALDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVK+VL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKL SNP+ FDP+RFIA DIDFRGHHYE+IPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>dbj|BAM36727.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase [Nicotiana langsdorffii]</Hit_def>
+  <Hit_accession>BAM36727</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.66833e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWPNPDNFDPERFVAADIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMARLIQGFNYRTPTNEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLW NP+ FDP+RF+A DIDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMA LIQGFNYRTP +EPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>dbj|BAM36726.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase [Nicotiana alata]</Hit_def>
+  <Hit_accession>BAM36726</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>2.5856e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWPNPDKFDPERFIAGDIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMARLIQGFNYRTPTNEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLW NP+ FDP+RFIA DIDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMA LIQGFNYRTP +EPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|ABD39477.1|</Hit_id>
+  <Hit_def>CYP82E4v6 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39477</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>3.90818e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLLRDPKLWPDPDTFDPERFIATDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKL RDPKLW +P+ FDP+RFIATDIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|ABD39482.1|</Hit_id>
+  <Hit_def>CYP82E4v12 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39482</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>5.23621e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVCKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSDPDTFDPERFIATDIDFRGQYYKYIPFGPGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKV KDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWS+P+ FDP+RFIATDIDFRG +Y+YIPFG G++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|NP_001312976.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase CYP82E4 [Nicotiana tabacum] &gt;gb|AGD93125.1| CYP450 nicotine N-demethylase [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312976</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>5.3509e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQCDPKLWSDPDTFDPERFIAIDIDFRGQYYKYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQ DPKLWS+P+ FDP+RFIA DIDFRG +Y+YIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_016490207.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP82D47-like [Nicotiana tabacum] &gt;gb|ADP65809.1| nicotine N-demethylase [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016490207</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>5.83537e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDKKVGKDRWVEESDIKDLVYLQTIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFAADIDFRGQHYEFIPFGSGRRSCPGMTYAMQVEHLTIAHLIQGFNYKTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGKDRWVE+SDIKDLVYLQ IVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF A DIDFRG HYE+IPFGSG++SCPGMTYA+QVEHLT+AHLIQGFNY+TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_009757628.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP82D47-like [Nicotiana sylvestris] &gt;gb|ADP65810.1| nicotine N-demethylase [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009757628</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>6.16018e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDKKVGKDRWVEESDIKDLVYLQTIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFAADIDFRGQHYEFIPFGSGRRSCPGMTYAMQVEHLTIAHLIQGFNYKTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGKDRWVE+SDIKDLVYLQ IVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF A DIDFRG HYE+IPFGSG++SCPGMTYA+QVEHLT+AHLIQGFNY+TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|ABX56037.1|</Hit_id>
+  <Hit_def>CYP82E5v2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABX56037</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.59816e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDKKVGKERWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFADDIDYRGQHYEFIPFGSGRRSCPGMTYALQVEHLTIAHLIQGFNYKTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGK+RWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF A DID+RG HYE+IPFGSG++SCPGMTYALQVEHLT+AHLIQGFNY+TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_001312226.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP82D47-like [Nicotiana tabacum] &gt;gb|ABC69371.1| CYP82E5 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312226</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.61556e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDKKVGKERWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFADDIDYRGQHYEFIPFGSGRRSCPGMTYALQVEHLTIAHLIQGFNYKTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGK+RWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF A DID+RG HYE+IPFGSG++SCPGMTYALQVEHLT+AHLIQGFNY+TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_016456159.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP82D47-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016456159</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.8004e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDKKVGKERWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFADDIDYRGQHYEFIPFGSGRRSCPGMTYALQVEHLTIAHLIQGFNYKTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGK+RWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF A DID+RG HYE+IPFGSG++SCPGMTYALQVEHLT+AHLIQGFNY+TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_009619218.1|</Hit_id>
+  <Hit_def>cytochrome P450 CYP82D47-like [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009619218</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.85987e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDKKVGKERWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFADDIDYRGQHYEFIPFGSGRRSCPGMTYALQVEHLTIAHLIQGFNYKTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGK+RWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF A DID+RG HYE+IPFGSG++SCPGMTYALQVEHLT+AHLIQGFNY+TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>dbj|BAM36724.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase [Nicotiana alata]</Hit_def>
+  <Hit_accession>BAM36724</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.86658e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWPNPDNFDPERFVAANIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMARLIQGFNYRTPTKEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLW NP+ FDP+RF+A +IDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMA LIQGFNYRTP  EPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>dbj|BAM36723.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase [Nicotiana alata]</Hit_def>
+  <Hit_accession>BAM36723</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.34345e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWPNPDNFDPERFVAANIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMARLIQGFNYRTPTKEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLW NP+ FDP+RF+A +IDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMA LIQGFNYRTP  EPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_009627979.1|</Hit_id>
+  <Hit_def>xanthotoxin 5-hydroxylase CYP82C4-like [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009627979</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.23151e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENIEDCVVSGYYISKGTRLFANVMKLQRDPKLWPNPDNFDPERFVAAGIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYSTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+N++DCVVSGY+I KGT+LFANVMKLQRDPKLW NP+ FDP+RF+A  IDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|ABD39484.1|</Hit_id>
+  <Hit_def>CYP82E2v3 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39484</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.68007e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKKVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLLSNPDKFDPERFIAGDIDFRGHHYEFIPSGSGRRSCPGMTYALQVEHLTMAHLIQGFNYKTPNDEVLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVK+VL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKL SNP+ FDP+RFIA DIDFRGHHYE+IP GSG++SCPGMTYALQVEHLTMAHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_016500333.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 82C4-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016500333</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>5.26126e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENIEDCVVSGYYISKGTRLFANVMKLQRDPKLWPNPDNFDPERFVAAGIDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYSTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+N++DCVVSGY+I KGT+LFANVMKLQRDPKLW NP+ FDP+RF+A  IDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY TPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_019256237.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 CYP82D47-like [Nicotiana attenuata] &gt;gb|OIS97391.1| cytochrome p450 82c4 [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019256237</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>1.64049e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDEKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENIEDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPDKFDPERFFTGDIDFRGQHYEFIPFGSGRRSCPGMTYALQVEHLTIAHLIQGFNYKTPNDEHLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID KVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+N++DCVVSGYHIPKGT+LFANVMKLQRDPKLWSNP+ FDP+RF   DIDFRG HYE+IPFGSG++SCPGMTYALQVEHLT+AHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_009778755.1|</Hit_id>
+  <Hit_def>PREDICTED: cytochrome P450 82C4-like [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009778755</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>3.81455e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWPNPDNFDPERFV---IDFRGQHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPTNEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLW NP+ FDP+RF+   IDFRG HYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTP +EPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|ANP21802.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase, partial [Nicotiana excelsior]</Hit_def>
+  <Hit_accession>ANP21802</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>6.68103e-94</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>KSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>ESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPEMFDPERFIATDIDFRGHHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKLWSNPEMFDP+RFIATDIDFRGHHYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|ABD39485.1|</Hit_id>
+  <Hit_def>CYP82E2v4 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ABD39485</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>8.694e-94</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KAQEEIDTKVGKYRWVEESDIKDLVYLQAIVKKVLRLYPPGPLLVPHEYVKDCVVSGYHIPKGTRLFANVMKLQRDPKLLSNPDKFDPERFIAGDIDFRGHHYEFIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYKTPNDEALDMKEGAG</Hsp_hseq>
+      <Hsp_midline>KAQEEIDTKVGK RWVE+SDIKDLVYLQAIVK+VL+LYPPGPLLVPH+ VKDCVVSGYHIPKGT+LFANVMKLQRDPKL SNP+ FDP+RFIA DIDFRGHHYE+IPFGSG++SCPGMTYALQVEHLTMAHLIQGFNY+TPNDE LDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_009782771.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: cytochrome P450 82G1-like, partial [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009782771</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.06356e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGA</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWVEESDIKDLVYLQAIVKEVLRLYPPGPLLVPHENVEDCVVSGYHIPKGTRLFANVMKLQRDPKLWPNPDNFDPERFVAADIDFRGQHYEYIPFGSGRRSCPGVTYALQVEH---XHLIQGFNYRTPTNEPLDMKEGA</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRWVE+SDIKDLVYLQAIVKEVL+LYPPGPLLVPH+NV+DCVVSGYHIPKGT+LFANVMKLQRDPKLW NP+ FDP+RF+A DIDFRG HYEYIPFGSG++SCPG+TYALQVEH    HLIQGFNYRTP +EPLDMKEGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|MCD7460666.1|</Hit_id>
+  <Hit_def>hypothetical protein [Datura stramonium]</Hit_def>
+  <Hit_accession>MCD7460666</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>8.03652e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDMKIGKDRWIEESDIKDLVYFQAIIKEVLRLYPPGPLLVPHENAEDCVVSGYHIPKGTRLYTNVMKLQRDPKIWSNPEDFYPDRFLTTDIDFRGQHYEYIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFDYKTPSGEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID K+GKDRW+E+SDIKDLVY QAI+KEVL+LYPPGPLLVPH+N +DCVVSGYHIPKGT+L+ NVMKLQRDPK+WSNPE F P RF+ TDIDFRG HYEYIPFGSG++SCPGMTYALQVE+LT+ HLIQGF+Y+TP+ EPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|KAJ8562943.1|</Hit_id>
+  <Hit_def>hypothetical protein K7X08_031395 [Anisodus acutangulus]</Hit_def>
+  <Hit_accession>KAJ8562943</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.82291e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>354</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKVGKDRWIEESDIKNLVYLQAIFKEVLRLYPPGPLLVPHENSEDCVVSGYHIPKGTRLYTNVMKLQQDPKMWSNPDQFDPDRFFATDIDFRGQHYEFIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFNFRTPSDEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTKVGKDRW+E+SDIK+LVYLQAI KEVL+LYPPGPLLVPH+N +DCVVSGYHIPKGT+L+ NVMKLQ+DPK+WSNP+ FDP RF ATDIDFRG HYE+IPFGSG++SCPGMTYALQVE+LT+ HLIQGFN+RTP+DEPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|ANF07092.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase, partial [Nicotiana goodspeedii]</Hit_def>
+  <Hit_accession>ANF07092</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>2.663e-89</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>DLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>DLVYLQAIVKEVLRLYPPGPLLVPHENVKDCVVSGYHIPKGTRLFANVMKLQRDPKLWSNPETFDPERFIASDIDFRGHHYEYIPFGSGRRSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_hseq>
+      <Hsp_midline>DLVYLQAIVKEVL+LYPPGPLLVPH+NVKDCVVSGYHIPKGT+LFANVMKLQRDPKLWSNPE FDP+RFIA+DIDFRGHHYEYIPFGSG++SCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_055802337.1|</Hit_id>
+  <Hit_def>nicotine N-demethylase CYP82E3-like [Solanum dulcamara]</Hit_def>
+  <Hit_accession>XP_055802337</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>2.10889e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTKIGKDRWIDDNDIKNLVYLQAIVKEVLRLYPPGPLLVPHENTEDCVVSGYHIPKGTRLYTNVMKLQRDPQIWSNPEQFDPDRFFTTDIDFRGQDYEFIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFDYRTPSDEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDTK+GKDRW++ +DIK+LVYLQAIVKEVL+LYPPGPLLVPH+N +DCVVSGYHIPKGT+L+ NVMKLQRDP++WSNPE FDP RF  TDIDFRG  YE+IPFGSG++SCPGMTYALQVE+LT+ HLIQGF+YRTP+DEPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAH0692206.1|</Hit_id>
+  <Hit_def>hypothetical protein KY285_019303 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0692206</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>4.24558e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKVQEEIDMKIGKDRWIDDNDIKDLVYLQAIVKEVLRLYPPGPLLVPHENTEDCVVSGYHIPKGTRLYTNVMKLQRDPKIWSNPDQFNPDRFFTNDIDFRGQDYEFIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFDYKIPSDEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KK QEEID K+GKDRW++ +DIKDLVYLQAIVKEVL+LYPPGPLLVPH+N +DCVVSGYHIPKGT+L+ NVMKLQRDPK+WSNP+ F+P RF   DIDFRG  YE+IPFGSG++SCPGMTYALQVE+LT+ HLIQGF+Y+ P+DEPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|KAH0678244.1|</Hit_id>
+  <Hit_def>hypothetical protein KY284_019329 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0678244</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>5.64716e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDMKIGKDRWIDDNDIKDLVYLQAIVKEVLRLYPPGPLLVPHENMEDCVVSGYHIPKGTRLYTNVMKLQRDPKIWSNPDQFNPDRFFTTDIDFRGQDYEFIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFNYKIPSDEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KKAQEEID K+GKDRW++ +DIKDLVYLQAIVKEVL+LYPPGPLLVPH+N++DCVVSGYHIPKGT+L+ NVMKLQRDPK+WSNP+ F+P RF  TDIDFRG  YE+IPFGSG++SCPGMTYALQVE+LT+ HLIQGFNY+ P+DEPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_016572620.2|</Hit_id>
+  <Hit_def>demethylepipodophyllotoxin synthase [Capsicum annuum] &gt;gb|PHT81338.1| hypothetical protein T459_14353 [Capsicum annuum] &gt;gb|PHU17423.1| hypothetical protein BC332_13118 [Capsicum chinense]</Hit_def>
+  <Hit_accession>XP_016572620</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>2.68468e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTTIGKDRWIEESDIKNLVYLQAIIKEVLRLYPPGPLLVPHENAEDCVVRGYHIPKGTRLYTNVLKLQRDPKIWSNPVQFEPERFFSTDVDFRGQHYEFIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFDYRTPSGEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDT +GKDRW+E+SDIK+LVYLQAI+KEVL+LYPPGPLLVPH+N +DCVV GYHIPKGT+L+ NV+KLQRDPK+WSNP  F+P+RF +TD+DFRG HYE+IPFGSG++SCPGMTYALQVE+LT+ HLIQGF+YRTP+ EPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|PHT47928.1|</Hit_id>
+  <Hit_def>hypothetical protein CQW23_12136 [Capsicum baccatum]</Hit_def>
+  <Hit_accession>PHT47928</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>2.77313e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KKAQEEIDTKVGKDRWVEKSDIKDLVYLQAIVKEVLQLYPPGPLLVPHKNVKDCVVSGYHIPKGTKLFANVMKLQRDPKLWSNPEMFDPKRFIATDIDFRGHHYEYIPFGSGKQSCPGMTYALQVEHLTMAHLIQGFNYRTPNDEPLDMKEGAG</Hsp_qseq>
+      <Hsp_hseq>KKAQEEIDTTIGKDRWIEESDIKNLVYLQAIIKEVLRLYPPGPLLVPHENAEDCVVRGYHIPKGTRLYTNVLKLQRDPKIWSNPVQFEPERFFSTDVDFRGQHYEFIPFGSGRRSCPGMTYALQVEYLTIGHLIQGFDYRTPSGEPLDMKEGPG</Hsp_hseq>
+      <Hsp_midline>KKAQEEIDT +GKDRW+E+SDIK+LVYLQAI+KEVL+LYPPGPLLVPH+N +DCVV GYHIPKGT+L+ NV+KLQRDPK+WSNP  F+P+RF +TD+DFRG HYE+IPFGSG++SCPGMTYALQVE+LT+ HLIQGF+YRTP+ EPLDMKEG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>543536034</Statistics_db-num>
+      <Statistics_db-len>621932102</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

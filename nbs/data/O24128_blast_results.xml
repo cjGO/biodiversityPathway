@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.14.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_25421</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>107</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_25421</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>dbj|BAA21617.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>BAA21617</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>5.22407e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>dbj|BAA25685.1|</Hit_id>
+  <Hit_def>arginine decarboxylase [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>BAA25685</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.81762e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_016432787.1|</Hit_id>
+  <Hit_def>PREDICTED: arginine decarboxylase-like [Nicotiana tabacum] &gt;sp|A0A1S3WYR7.1| RecName: Full=Arginine decarboxylase 1B, chloroplastic; Flags: Precursor [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016432787</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.33528e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_009779129.1|</Hit_id>
+  <Hit_def>PREDICTED: arginine decarboxylase-like [Nicotiana sylvestris] &gt;sp|A0A1S3YCW2.1| RecName: Full=Arginine decarboxylase 1A, chloroplastic; Flags: Precursor [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_009779129</Hit_accession>
+  <Hit_len>733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.36375e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_001312119.1|</Hit_id>
+  <Hit_def>arginine decarboxylase 1A, chloroplastic [Nicotiana tabacum] &gt;dbj|BAD06581.1| arginine decarboxylase [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312119</Hit_accession>
+  <Hit_len>733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.40702e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_009592123.1|</Hit_id>
+  <Hit_def>arginine decarboxylase-like [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009592123</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.48187e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_019254824.1|</Hit_id>
+  <Hit_def>PREDICTED: arginine decarboxylase-like [Nicotiana attenuata] &gt;gb|OIS98144.1| arginine decarboxylase [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019254824</Hit_accession>
+  <Hit_len>732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>2.40128e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGSKSCESDCSVGYGLQEYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDG+KSC+SDCSVGYGLQEYASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ABW21836.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|ABW21839.1| putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21836</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.03589e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ABW21846.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|ABW21850.1| putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21846</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.20407e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAX56857.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21842.1| putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|ADV29081.1| arginine decarboxylase, partial [Solanum arcanum] &gt;gb|ABW21800.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21808.1| putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AAX56857</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.23023e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AEO52829.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AEO52829</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.25695e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|ABW21795.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21796.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21797.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21798.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21799.1| putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>ABW21795</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.27053e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|ADV29106.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum arcanum] &gt;gb|ADV29107.1| arginine decarboxylase, partial [Solanum arcanum] &gt;gb|ADV29108.1| arginine decarboxylase, partial [Solanum arcanum] &gt;gb|ADV29109.1| arginine decarboxylase, partial [Solanum arcanum] &gt;gb|ADV29110.1| arginine decarboxylase, partial [Solanum arcanum]</Hit_def>
+  <Hit_accession>ADV29106</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.28426e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ABW21820.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>ABW21820</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.28426e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AAX56858.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|AAX56865.1| putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|ADV29068.1| arginine decarboxylase, partial [Solanum arcanum] &gt;gb|AAX56860.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|AAX56862.1| putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AAX56858</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.34067e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAX56859.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AAX56859</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.34067e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AEO52752.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|AEO52755.1| putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>AEO52752</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.36979e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ABW21826.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>ABW21826</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.36979e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|ABW21844.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21844</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.38459e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AAX56864.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|AEO52830.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|AAX56866.1| putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|AAX56868.1| putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|AAX56870.1| putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>AAX56864</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.42995e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|ABW21854.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21854</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.49276e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|AEO52825.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AEO52825</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.49276e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|ABW21845.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21845</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.50888e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|ABW21831.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|ABW21833.1| putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21831</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.50888e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AEO52753.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>AEO52753</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.50888e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|ABW21853.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21853</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.62676e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|ABW21861.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21861</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.68005e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|ABW21855.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense] &gt;gb|ABW21862.1| putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21855</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.6982e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|ADV29087.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum arcanum] &gt;gb|ADV29089.1| arginine decarboxylase, partial [Solanum arcanum]</Hit_def>
+  <Hit_accession>ADV29087</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.73509e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|AEO52748.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>AEO52748</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.73509e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|ABW21818.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>ABW21818</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.75384e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|ABW21835.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>ABW21835</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.83086e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|ADV29091.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum arcanum]</Hit_def>
+  <Hit_accession>ADV29091</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>2.6382e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVMIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSV+IFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AEO52823.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AEO52823</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>4.18733e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDSRADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDD+RADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|AAX56863.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AAX56863</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>4.71256e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARGDYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDAR DYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|AAX56878.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29030.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29038.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29039.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29040.1| arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>AAX56878</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>4.8149e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|ADV29057.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29058.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29059.1| arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>ADV29057</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>4.91947e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|AAZ85221.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAZ85222.1| arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAZ85227.1| arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAZ85228.1| arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAZ85229.1| arginine decarboxylase, partial [Solanum pimpinellifolium]</Hit_def>
+  <Hit_accession>AAZ85221</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>4.9726e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARGDYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDAR DYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|AAZ85211.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum chmielewskii] &gt;gb|ADV29080.1| arginine decarboxylase, partial [Solanum arcanum] &gt;gb|AAZ85212.1| arginine decarboxylase, partial [Solanum chmielewskii] &gt;gb|AAZ85213.1| arginine decarboxylase, partial [Solanum chmielewskii] &gt;gb|AAZ85214.1| arginine decarboxylase, partial [Solanum chmielewskii]</Hit_def>
+  <Hit_accession>AAZ85211</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.0263e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARGDYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDAR DYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AAX56854.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|AAZ85226.1| arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAX56861.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21812.1| putative arginine decarboxylase, partial [Solanum peruvianum] &gt;gb|ABW21819.1| putative arginine decarboxylase, partial [Solanum peruvianum]</Hit_def>
+  <Hit_accession>AAX56854</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.0263e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARGDYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDAR DYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|AAZ85223.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAZ85224.1| arginine decarboxylase, partial [Solanum pimpinellifolium] &gt;gb|AAZ85225.1| arginine decarboxylase, partial [Solanum pimpinellifolium]</Hit_def>
+  <Hit_accession>AAZ85223</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.30365e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARGDYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDAR DYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|AAX56880.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29031.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29034.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29035.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29036.1| arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>AAX56880</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.36093e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|ADV29018.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29023.1| arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>ADV29018</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.47735e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|ADV29042.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29043.1| arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>ADV29042</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.5963e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|ADV29041.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29047.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29049.1| arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|ADV29055.1| arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>ADV29041</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>5.5963e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|AEO52751.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum chilense]</Hit_def>
+  <Hit_accession>AEO52751</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.96886e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQSVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQ+VRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ADV29076.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum arcanum]</Hit_def>
+  <Hit_accession>ADV29076</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.50447e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSMSLHSFVEKLNDDARGDYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSS+ L SFVEKLNDDAR DYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|ADV29037.1|</Hit_id>
+  <Hit_def>arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>ADV29037</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.57471e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AAX56874.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|AAX56875.1| putative arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|AAX56877.1| putative arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|AAX56879.1| putative arginine decarboxylase, partial [Solanum habrochaites] &gt;gb|AAX56881.1| putative arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>AAX56874</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>7.01239e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|AAX56876.1|</Hit_id>
+  <Hit_def>putative arginine decarboxylase, partial [Solanum habrochaites]</Hit_def>
+  <Hit_accession>AAX56876</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>7.16467e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGVDYDGTKSCDSDCSVGYGLQEYASTVVQAVRFVCDRKNVKNPVICSESGRAIVSHHSVLIFEAVSSTTTRSQELSSVDLQSFVEKLNDDARADYRNLSAAAIRGE</Hsp_qseq>
+      <Hsp_hseq>LGIDYDGTKSSDSDVSVGYGLQDYASTVVQAVRFVCDRKNVKHPVICSESGRAIVSHHSVLIFEAVSSTSTRSQELSSMSLHSFVEKLNDDARADYRNLSAAAIRGE</Hsp_hseq>
+      <Hsp_midline>LG+DYDGTKS DSD SVGYGLQ+YASTVVQAVRFVCDRKNVK+PVICSESGRAIVSHHSVLIFEAVSST+TRSQELSS+ L SFVEKLNDDARADYRNLSAAAIRGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>542683057</Statistics_db-num>
+      <Statistics_db-len>280388955</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

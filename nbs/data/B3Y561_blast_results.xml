@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.14.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_38379</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>239</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_38379</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>239</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>dbj|BAG68655.1|</Hit_id>
+  <Hit_def>jasmonate ZIM-domain protein 1 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>BAG68655</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.271</Hsp_bit-score>
+      <Hsp_score>1266</Hsp_score>
+      <Hsp_evalue>1.55956e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_016496763.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016496763</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>8.42239e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGKVTGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQKSAESVTTNLTQEFRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQIYNKKIADSKTEENKAWLGLGAKFVPVKTEQFF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGKV+GQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQ SAESVTTN +QE RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQI NKKIADSK EENKAWLGLGAKFVPVKTEQFF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_009759848.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009759848</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>1.68354e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGKVTGQKSQFSQTCNLLSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVVVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQKSAESVTTNLTQELRTRIHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQIYNKKIADSKTEENKAWLGLGAKFVPVKTEQFF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGKV+GQKSQFSQTCNL SQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQV+VFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQ SAESVTTN +QELRTR HVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQI NKKIADSK EENKAWLGLGAKFVPVKTEQFF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_009621436.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Nicotiana tomentosiformis] &gt;ref|XP_016480520.1| PREDICTED: protein TIFY 10A-like [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_009621436</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>4.25156e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGKVTGQKSQFSQTCNLLSQFLKKKGSFGDLNNLGIYRSFEPIGNQTTTT-MNLLPMIEKSGDSAENNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLASKKNNNKQNLASNIFSYAMVNNKKSAESVTINSTQELRTRTQVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKVADSKNEENKAWLGLGAQFVPVKTEQFF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGKV+GQKSQFSQTCNL SQFLKKKGSFGDLNNLGIYRSFEP GNQTTTT MNLLPMIEKSGDSAE NSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA+KK NNKQNLASNIFSY MVNN+ SAESVT N +QELRTRT VPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKK+ADSKNEENKAWLGLGA+FVPVKTEQFF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_019246933.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A [Nicotiana attenuata] &gt;gb|AFL46169.1| jasmonate ZIM domain protein d [Nicotiana attenuata] &gt;gb|OIT01691.1| protein tify 10a [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019246933</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>1.13505e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLAT--KKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGLSEIVDSGKVTGQKSQFSQTCNLLSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKKSQKPMNLFPQEVISTTKSEPEKAQMTIFYGGQVIVFDDFPAAKANEIMKLASKKNNNNNKQNLATNIFSYPMVNNQNSAESVTTNLTQELRSRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKNAASAKNEENKAWLGLGGKFVPVKTEQFF</Hsp_hseq>
+      <Hsp_midline>MG SEIVDSGKV+GQKSQFSQTCNL SQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEK SQKPMNLFPQEVIST KSEPEKAQMTIFYGGQVIVFDDFPA KANEIMKLA+     NNKQNLA+NIFSYPMVNNQNSAESVTTN +QELR+RTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNK  A +KNEENKAWLGLG KFVPVKTEQFF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ACY30445.1|</Hit_id>
+  <Hit_def>JAZ1-like protein, partial [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>ACY30445</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>9.55545e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>EIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTA</Hsp_qseq>
+      <Hsp_hseq>EIVDSGKVTGQKSQFSQTCNLLSQFLKKKGSFGDLNNLGIYRSFEPIGNQTTTT-MNLLPMIEKSGDSAENNSQKPMNFFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLASKKNNNKQNLASNIFSYAMVNNKKSAESVTINSTQELRTRTQVPISQSSVADLPIARRNSLTRFLEKRKDRITSTA</Hsp_hseq>
+      <Hsp_midline>EIVDSGKV+GQKSQFSQTCNL SQFLKKKGSFGDLNNLGIYRSFEP GNQTTTT MNLLPMIEKSGDSAE NSQKPMN FPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA+KK NNKQNLASNIFSY MVNN+ SAESVT N +QELRTRT VPISQSSVADLPIARRNSLTRFLEKRKDRITSTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MCD7466400.1|</Hit_id>
+  <Hit_def>hypothetical protein [Datura stramonium]</Hit_def>
+  <Hit_accession>MCD7466400</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>9.7472e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTT--TTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQE----------VISTAKSE-PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAES---VTTNFS----QELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEE-NKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGKVTGQKSQFSQTCNLLSQFLKKKGSFGDLNNLGIYRSFEPTGSQQTAAATTMNLLPMIEKSGDSSLSSSTSEKNPQKPMNLFPQEADFCKEQTTKMTAAAKSDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLANKKT-NKQN-PTNVFSYTMMNNQKPAESAANLVTNFGNSLIQEL-PKCQMPISQPSVADLPIARRNSLTRFLEKRKDRITATAPYQICNKKIANSNNDENNKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGKV+GQKSQFSQTCNL SQFLKKKGSFGDLNNLGIYRSFEPTG+Q T   TTMNLLPMIEK      S  ++EKN QKPMNLFPQE          + + AKS+ PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA KKT NKQN  +N+FSY M+NNQ  AES   + TNF     QEL  +  +PISQ SVADLPIARRNSLTRFLEKRKDRIT+TAPYQICNKKIA+S N+E NKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|KAJ8528033.1|</Hit_id>
+  <Hit_def>hypothetical protein K7X08_015484 [Anisodus acutangulus]</Hit_def>
+  <Hit_accession>KAJ8528033</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>4.40846e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQ--TTTTTMNLLPMIEKSGDSA--EKNSQKPMNLFPQEV-IS----TAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICN--KKIADSKNEE-NKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGK----KSQFSQTCNLLSQFLKKKGSFGDLNNLGIYRTFEPSGSQQTATTTTMNLLPMIEKSGDSSSPEKILQKPMNLFPQQVDISKEQITKNTEPEKAQMTIFYGGQVIVLDDFPADKANEIMKLANTKT-NKQN-PTNKFAYTMMNNQKSVESV-TNFGNKIQELPKCQVPKPCVADLPIARRNSLTRFLEKRKDRITATAPYQIYNNKKNVANSKNKEYNKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGK    KSQFSQTCNL SQFLKKKGSFGDLNNLGIYR+FEP+G+Q   TTTTMNLLPMIEKSGDS+  EK  QKPMNLFPQ+V IS    T  +EPEKAQMTIFYGGQVIV DDFPADKANEIMKLA  KT NKQN  +N F+Y M+NNQ S ESV TNF  +++      + +  VADLPIARRNSLTRFLEKRKDRIT+TAPYQI N  K +A+SKN+E NKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KAJ8528197.1|</Hit_id>
+  <Hit_def>hypothetical protein K7X08_021889 [Anisodus acutangulus]</Hit_def>
+  <Hit_accession>KAJ8528197</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.553</Hsp_bit-score>
+      <Hsp_score>828</Hsp_score>
+      <Hsp_evalue>1.03716e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQ--TTTTTMNLLPMIEKSGDSAE----KNSQKPMNLFPQEVI-----STAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT--NFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICN--KKIADSKNEE-NKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGK----KSQFSQTCNLLSQFLKKKGSFGDINNLGIYR---PTGSQQTTATTTMNLLPMIEKSGDSSSSSEEKIPQKPMNLFPQEFDLSKEQSSKNTEPKKAQMTIFYGGQVIVFDDFPADKANEIMKLANKKT-NKQNPTNN-FTYTMMNNQKSVESVTNYGNKIQEL-PKCQVPIPQPSVADLPIARRNSLTRFLEKRKDRITATAPYQICNNKKNIVNSKNEENNKAWLGLGAKF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSGK    KSQFSQTCNL SQFLKKKGSFGD+NNLGIYR   PTG+Q  T TTTMNLLPMIEKSGDS+     K  QKPMNLFPQE       S+  +EP+KAQMTIFYGGQVIVFDDFPADKANEIMKLA KKT NKQN  +N F+Y M+NNQ S ESVT   N  QEL  +  VPI Q SVADLPIARRNSLTRFLEKRKDRIT+TAPYQICN  K I +SKNEE NKAWLGLGAKF  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PHT52251.1|</Hit_id>
+  <Hit_def>hypothetical protein CQW23_06713 [Capsicum baccatum]</Hit_def>
+  <Hit_accession>PHT52251</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>9.89455e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQTTTTTMNLLPMIEKSGDS------AEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT---NFSQELRTRTHVPISQ----SSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKK---IADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENQDSGKVTGQKSQFSQTCNLLSQFLKKKGFVGDLNGLGLYRNTFESTGPQQTSTTMDLLPMIEKSGDSSSTTSSVETNVQKPMNLFPQE--STKK--PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT-NKQNNPTNVFSY----NQKPVDSATTFANNRIQEVLPKCQMPIPMPSQTSSVADLPIARRNSLTRFLEKRKDRITATAPYQICNNKKKILANSKNEENKAWLGLGAAQF-VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE  DSGKV+GQKSQFSQTCNL SQFLKKKG  GDLN LG+YR +FE TG Q T+TTM+LLPMIEKSGDS       E N QKPMNLFPQE  ST K  PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT NKQN  +N+FSY    NQ   +S TT   N  QE+  +  +PI      SSVADLPIARRNSLTRFLEKRKDRIT+TAPYQICN K   +A+SKNEENKAWLGLGA    VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_049398228.1|</Hit_id>
+  <Hit_def>protein TIFY 10A [Solanum stenotomum]</Hit_def>
+  <Hit_accession>XP_049398228</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>1.21361e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEKSGDSA---EKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGLSENVDSGKVAGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSGDSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWISDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FTYTMMKNQKTADQSGANFGNKLIQELPKVSMPQTSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISSNK--KSKNEENKAWLGLGAQF--VKTELYF</Hsp_hseq>
+      <Hsp_midline>MG SE VDSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEKSGDS+   E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ +A+    NF  +L +    V + Q+SVADLPIARRNSLTRFLEKRKDR+TS APYQI + K   SKNEENKAWLGLGA+F  VKTE +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|PHU08230.1|</Hit_id>
+  <Hit_def>hypothetical protein BC332_24719 [Capsicum chinense]</Hit_def>
+  <Hit_accession>PHU08230</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>5.62547e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQTTTTTMNLLPMIEKSGDS------AEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT---NFSQELRTRTHVPISQ----SSVADLPIARRNSLTRFLEKRKDRITSTAPYQ--------ICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENQDSGKVTGQKSQFSQTCNLLSQFLKKKGFVGDLNGLGLNRNTFESTGPQQTSTTMDLLPMIEKSGDSSSTTSSVETNAQKPMNLFPQE--STKK--PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT-NKQNNPTNVFSY----NQKPVDSATTFTNNRIQEVLPKCQMPMPMPSQTSSVADLPIARRNSLTRFLEKRKDRITATAPYQICNNNIHKNNKKILANSKNEENKAWLGLGAAQF-VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE  DSGKV+GQKSQFSQTCNL SQFLKKKG  GDLN LG+ R +FE TG Q T+TTM+LLPMIEKSGDS       E N+QKPMNLFPQE  ST K  PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT NKQN  +N+FSY    NQ   +S TT   N  QE+  +  +P+      SSVADLPIARRNSLTRFLEKRKDRIT+TAPYQ           K +A+SKNEENKAWLGLGA    VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KAF3625086.1|</Hit_id>
+  <Hit_def>putative polygalacturonase-like [Capsicum annuum] &gt;gb|PHT73609.1| hypothetical protein T459_24394 [Capsicum annuum]</Hit_def>
+  <Hit_accession>KAF3625086</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>6.13984e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQTTTTTMNLLPMIEKSGDS------AEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT---NFSQELRTRTHVPISQ----SSVADLPIARRNSLTRFLEKRKDRITSTAPYQ--------ICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENQDSGKVTGQKSQFSQTCNLLSQFLKKKGFVGDLNGLGLNRNTFESTGPQQTSTTMDLLPMIEKSGDSSSTTSSVETNAQKPMNLFPQE--STKK--PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT-NKQNNPTNVFSY----NQKPVDSATTFANNRIQEVLPKCQMPMPMPSQTSSVADLPIARRNSLTRFLEKRKDRITATAPYQICNNNIHKNNKKILANSKNEENKAWLGLGAAQF-VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE  DSGKV+GQKSQFSQTCNL SQFLKKKG  GDLN LG+ R +FE TG Q T+TTM+LLPMIEKSGDS       E N+QKPMNLFPQE  ST K  PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT NKQN  +N+FSY    NQ   +S TT   N  QE+  +  +P+      SSVADLPIARRNSLTRFLEKRKDRIT+TAPYQ           K +A+SKNEENKAWLGLGA    VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_055801785.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Solanum dulcamara]</Hit_def>
+  <Hit_accession>XP_055801785</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.056</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>3.21248e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGN---QTTTTTMNLLPMIEK----SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFS----QELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQI-CNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENVDSGKVIGQKSQFTQTCNRLSQFLKKKGSVGDLNNLGIYRTTFETNGSQQTAATTTTMNLLPMIEKSSDSSSSSVETNPQKPMNLFPQEFDFCKEQSTKKTESWKSDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FTYIMMKNQKPADQSATNFGNNLIQEL-PKCRVPIPQPSVADLPIARRNSLTRFLEKRKDRITAIAPYQISSNKKIANSKNEENKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE VDSGKV GQKSQF+QTCN  SQFLKKKGS GDLNNLGIYR +FE  G+     TTTTMNLLPMIEK    S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ  A+   TNF     QEL  +  VPI Q SVADLPIARRNSLTRFLEKRKDRIT+ APYQI  NKKIA+SKNEENKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_015059792.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_015059792</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>3.6906e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ---TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQE-----------VISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENMDSGKVTGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKIESWKPDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQN-PTNIFTYPMIKNQKTADQSGVSFGNKLIQELPKLSMPQHSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISNNK--KSKNEDNKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE +DSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q   TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE           + S    +PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +NIF+YPM+ NQ +A+    +F  +L +    + + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI N K   SKNE+NKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_016540318.2|</Hit_id>
+  <Hit_def>protein TIFY 10A [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016540318</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>9.61426e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQTTTTTMNLLPMIEKSGDS------AEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT---NFSQELRTRTHVPISQ----SSVADLPIARRNSLTRFLEKRKDRITSTAPYQ--------ICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENQDSGKVTGQKSQFSQTCNLLSQFLKKKGFVGDLNGLGLNRNTFESTGPQQTSTTMDLLPMIEKSGDSSSTTSSVETNAQKPMNLFPQE--STKK--PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT-NKQNNPTNVFSY----NQKPVDSATTFANNRIQEVLPKCQMPMPMPSQTSSVADLPIARRNSLTRFLEKRKDRITATAPYQICNNNIHKNNKKILANSKNEENKAWLGLGAAQF-VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE  DSGKV+GQKSQFSQTCNL SQFLKKKG  GDLN LG+ R +FE TG Q T+TTM+LLPMIEKSGDS       E N+QKPMNLFPQE  ST K  PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT NKQN  +N+FSY    NQ   +S TT   N  QE+  +  +P+      SSVADLPIARRNSLTRFLEKRKDRIT+TAPYQ           K +A+SKNEENKAWLGLGA    VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KAH0774322.1|</Hit_id>
+  <Hit_def>hypothetical protein KY290_011459 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0774322</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.17395e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ-----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL---RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENVDSGKVTGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWKSDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQN-PTNYFTYTMMKNQKTSDQSGANFGNKLIQELPKCQVSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISSNK--KSKNEENKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE VDSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q     TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ +++    NF  +L     +  V + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI + K   SKNEENKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KAF3648554.1|</Hit_id>
+  <Hit_def>putative polygalacturonase-like [Capsicum annuum]</Hit_def>
+  <Hit_accession>KAF3648554</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.286</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>2.26698e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQTTTTTMNLLPMIEKSGDS------AEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT---NFSQELRTRTHVPISQ----SSVADLPIARRNSLTRFLEKRKDRITSTAPYQ--------ICNKKIADSKNEENKAWLGLGAKFVPVKTEQ</Hsp_qseq>
+      <Hsp_hseq>MGSSENQDSGKVTGQKSQFSQTCNLLSQFLKKKGFVGDLNGLGLNRNTFESTGPQQTSTTMDLLPMIEKSGDSSSTTSSVETNAQKPMNLFPQE--STKK--PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT-NKQNNPTNVFSY----NQKPVDSATTFANNRIQEVLPKCQMPMPMPSQTSSVADLPIARRNSLTRFLEKRKDRITATAPYQICNNNIHKNNKKILANSKNEENKAWLGLGAAQF-VKTEQ</Hsp_hseq>
+      <Hsp_midline>MGSSE  DSGKV+GQKSQFSQTCNL SQFLKKKG  GDLN LG+ R +FE TG Q T+TTM+LLPMIEKSGDS       E N+QKPMNLFPQE  ST K  PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKT NKQN  +N+FSY    NQ   +S TT   N  QE+  +  +P+      SSVADLPIARRNSLTRFLEKRKDRIT+TAPYQ           K +A+SKNEENKAWLGLGA    VKTEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KAH0710139.1|</Hit_id>
+  <Hit_def>hypothetical protein KY284_011566 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0710139</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>2.5436e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENMDSGKVAGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWKSDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPINN-FTYTMMKNQKTADQSGANFGNKLIQELPKVSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISSNK--KSKNEENKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE +DSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ +A+    NF  +L +    V + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI + K   SKNEENKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAH0706916.1|</Hit_id>
+  <Hit_def>hypothetical protein KY289_011992 [Solanum tuberosum] &gt;gb|KAH0735799.1| hypothetical protein KY285_011506 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0706916</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>2.75157e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL---RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENVDSGKVTGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWKSDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FIYTMMKNQKTADQSGANFGNKLIQELPKCQVSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISSNK--KSKNEENKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE VDSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F Y M+ NQ +A+    NF  +L     +  V + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI + K   SKNEENKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_006345256.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A [Solanum tuberosum]</Hit_def>
+  <Hit_accession>XP_006345256</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>3.90414e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL---RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENVDSGKVTGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWKFDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FTYTMMKNQKTSDQSGANFGNKLIQELPKCQVSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISSNK--KSKNEENKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE VDSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ +++    NF  +L     +  V + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI + K   SKNEENKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAG5569562.1|</Hit_id>
+  <Hit_def>hypothetical protein H5410_059328 [Solanum commersonii]</Hit_def>
+  <Hit_accession>KAG5569562</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>1.64977e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENVDSGKVTGQKSQFSQTCNLLSQFLKKRGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPRKPMNLFPQEFDFSKEQSTKKTESWISDQPEKAQMTIFYDGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FTYTMMKNQKTADQSGANFGNKLIQELPKVSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISNNK--KSKNEENKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE VDSGKV+GQKSQFSQTCNL SQFLKK+GS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEK      S  S E N +KPMNLFPQE       ST K+E      PEKAQMTIFY GQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ +A+    NF  +L +    V + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI N K   SKNEENKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|NP_001234883.1|</Hit_id>
+  <Hit_def>jasmonate ZIM-domain protein 2 [Solanum lycopersicum] &gt;gb|ABU88421.1| jasmonate ZIM-domain protein 1 [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>NP_001234883</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>1.70478e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENMDSGKVTGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFESTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWKPDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FTYPMIKNQKTADQSGVSFGNKLIQELPKLSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISNNK--KSKNEDNKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE +DSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FE TG+Q    TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+YPM+ NQ +A+    +F  +L +    + + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI N K   SKNE+NKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|TMW88168.1|</Hit_id>
+  <Hit_def>hypothetical protein EJD97_018962 [Solanum chilense]</Hit_def>
+  <Hit_accession>TMW88168</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>1.14241e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQFF</Hsp_qseq>
+      <Hsp_hseq>MGSSENMDSGKVAGQKSQFFQTCSLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKIESWKPDRPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQN-PTNSFTYPMIKNQKTADQSGVSFGNKLIQELPKLSMPQPSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISNNK--KSKNEDNKAWLGLGAQF--VKTEQYF</Hsp_hseq>
+      <Hsp_midline>MGSSE +DSGKV+GQKSQF QTC+L SQFLKKKGS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+YPM+ NQ +A+    +F  +L +    + + Q SVADLPIARRNSLTRFLEKRKDR+TS APYQI N K   SKNE+NKAWLGLGA+F  VKTEQ+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_049347294.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Solanum verrucosum]</Hit_def>
+  <Hit_accession>XP_049347294</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>1.17808e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYR-SFEPTGNQ----TTTTTMNLLPMIEK------SGDSAEKNSQKPMNLFPQEVI-----STAKSE------PEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQEL-RTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWL</Hsp_qseq>
+      <Hsp_hseq>MGLSENVDSGKVAGQKSQFSQTCNLLSQFLKKKGSVGDLNNLGIYKTTFEPTGSQQTATTTTTTMNLLPMIEKSSDSSSSSSSVETNPQKPMNLFPQEFDFSKEQSTKKTESWISDQPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-----NKQNPTNN-FTYTMMKNQKTADQSGANFGNKLIQELPKVSMPQTSVADLPIARRNSLTRFLEKRKDRVTSIAPYQISNNK--KSKNEENKAWL</Hsp_hseq>
+      <Hsp_midline>MG SE VDSGKV+GQKSQFSQTCNL SQFLKKKGS GDLNNLGIY+ +FEPTG+Q    TTTTTMNLLPMIEK      S  S E N QKPMNLFPQE       ST K+E      PEKAQMTIFYGGQVIVFDDFPADKANEIMKLA     NKQN  +N F+Y M+ NQ +A+    NF  +L +    V + Q+SVADLPIARRNSLTRFLEKRKDR+TS APYQI N K   SKNEENKAWL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|MCE2055186.1|</Hit_id>
+  <Hit_def>hypothetical protein [Datura stramonium]</Hit_def>
+  <Hit_accession>MCE2055186</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>3.7359e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQ-----EVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATK-KTNNKQNLASNIFSYPMVNNQNS---------AESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICN-KKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFAGQKSHFSLTCSLLSQYLKEKGSLGDLS-LGIHRNFD---SAASSTTMDLLPMIEKSGESAAMNTQKSMSLFPQAATKAESSTVAKSEPDKAQMTIFYAGQVIVFNDFPADKAKEIMLMASSTKGNNTQN-PSNGFPYAMVSAKQAESAADLVTPAVNMTPSFGNTSIQEHQMP-SQPIVSDLPIARRASLTRFLEKRKDRLTTKVPYQISNPHKHTASKQEENKAWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TC+L SQ+LK+KGS GDL+ LGI+R+F+   +  ++TTM+LLPMIEKSG+SA  N+QK M+LFPQ     E  + AKSEP+KAQMTIFY GQVIVF+DFPADKA EIM +A+  K NN QN  SN F Y MV+ + +         A ++T +F         +P SQ  V+DLPIARR SLTRFLEKRKDR+T+  PYQI N  K   SK EENKAWLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|KAJ8532101.1|</Hit_id>
+  <Hit_def>hypothetical protein K7X08_012024 [Anisodus acutangulus]</Hit_def>
+  <Hit_accession>KAJ8532101</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>2.15224e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSV---ADLPIARRNSLTRFLEKRKDRITSTAPYQICN--KKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MTSSEIVDSGRLAGQKSHFSQTCSLLSQYLKVKGSFGDLS-LGFHRNFDSPG----STTMDLLPKIEKSGES------KSMNLFPA---MKSESEPEKAQMTVFYGGQVIVFNDFPADKAKEIMLMAT-TTNNT----------PMVPPK-PAESVADLVTPAVNMVPSQMPSQPIVSVFADLPMARRASVTRFLEKRKDRLTEKAPYQISNLHKQTASPKVEENKAWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+++GQKS FSQTC+L SQ+LK KGSFGDL+ LG +R+F+  G    +TTM+LLP IEKSG+S      K MNLFP      ++SEPEKAQMT+FYGGQVIVF+DFPADKA EIM +AT  TNN           PMV  +  AESV    +  +        SQ  V   ADLP+ARR S+TRFLEKRKDR+T  APYQI N  K+ A  K EENKAWLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_016580187.1|</Hit_id>
+  <Hit_def>protein TIFY 10A [Capsicum annuum] &gt;gb|KAF3623880.1| putative polygalacturonase-like [Capsicum annuum] &gt;gb|KAF3680326.1| putative polygalacturonase-like [Capsicum annuum] &gt;gb|PHT76013.1| hypothetical protein T459_19535 [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016580187</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.15472e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQIC--NKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGKLAGQRSHFSHTCSLLSQYLKEKGSLGDLY-LGISRNFDSTG----SATMDLLPMIEKS---AATNTQKSMNLFLQGA-TKAESSIDKSQMTIFYAGQVIVFNDFPADKAKEIMLMASNNANNTQN-PINKQAESTVDLVTPAVNIVPPSLANTSIQEHQMTSQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYQTSTPHKHTANPKKEENKAWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSGK++GQ+S FS TC+L SQ+LK+KGS GDL  LGI R+F+ TG    + TM+LLPMIEKS   A  N+QK MNLF Q   + A+S  +K+QMTIFY GQVIVF+DFPADKA EIM +A+   NN QN   N  +   V+    A ++          + H   SQ  V+DLPIARR SLTRFLEKRKDR+T+  PYQ    +K  A+ K EENKAWLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_015080580.1|</Hit_id>
+  <Hit_def>protein TIFY 10b-like [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_015080580</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>6.69737e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKA-WLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDLAG----STTMDLLPMIEKSGESV----QKSMNLFPQGGMK-AESEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASTSKGNN-----------PAKPLESAADLVVPSFGKTSIQENQMP-KQPIVSDLPIARRASLTRFLEKRKDRLTAKAPYH--REEAAAPKKEENKAPWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+  G    +TTM+LLPMIEKSG+S     QK MNLFPQ  +  A+SEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A T K NN           P    +++A+ V  +F +       +P  Q  V+DLPIARR SLTRFLEKRKDR+T+ APY    ++ A  K EENKA WLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|PHU11691.1|</Hit_id>
+  <Hit_def>hypothetical protein BC332_18621 [Capsicum chinense]</Hit_def>
+  <Hit_accession>PHU11691</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.05717e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT--------NFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICN--KKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGKLAGQRSHFSHTCSLLSQYLKEKGSLGDLY-LGISRNFDSTG----SATMDLLPMIEKS---VATNTQKLMNLFLQGA-TKAESSIDKSQMTIFYAGQVIVFNDFPADKAKEIMLMASNNANNTKN--------PINKQAESAVDLVTPAVNMVPPSFANT-SIQEHQMTSQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYQTSNPHKHTANPKKEENKAWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSGK++GQ+S FS TC+L SQ+LK+KGS GDL  LGI R+F+ TG    + TM+LLPMIEKS      N+QK MNLF Q   + A+S  +K+QMTIFY GQVIVF+DFPADKA EIM +A+   NN +N        P+     SA  + T        +F+     + H   SQ  V+DLPIARR SLTRFLEKRKDR+T+  PYQ  N  K  A+ K EENKAWLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KAG5596147.1|</Hit_id>
+  <Hit_def>hypothetical protein H5410_037379 [Solanum commersonii]</Hit_def>
+  <Hit_accession>KAG5596147</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>2.88967e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENK-AWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRYAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDSTG----STTMDLLPMIEKSGESV----QKSMNLFRQGAMK-AESEPEKAQMTIFYAGQVIVFNDFPADKAKEIMLMASTSKGNNTQNPAKQL--------ESPADLVIPSFGSTSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYY---REEAAPKKEENKAAWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+ TG    +TTM+LLPMIEKSG+S     QK MNLF Q  +  A+SEPEKAQMTIFY GQVIVF+DFPADKA EIM +A T K NN QN A  +        ++ A+ V  +F         +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENK AWLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_019194561.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A-like isoform X1 [Ipomoea nil]</Hit_def>
+  <Hit_accession>XP_019194561</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>3.62635e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFP----QEVI-----STAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSY---PMVNNQNSAESVTTNFSQELRTRTHVP------ISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEEN--KAWLGLGAKFVPVKTEQ</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGRPSGQKSNFSHTCTLLSQYLKEKGSFGDL-SLGISRNLE--GSGTAAQTMNLLPMIEKSG---QNSGPKPGNLFPNFTKEEATKKTDSSVAKAETEKSQMTIFYGGQVLVFNDFPAEKVKEIMVLA--KGGNTTHNPNNIFSYNNTPTLVSPKPAESSATNMVTPPAVPKVVPSLGNQKPSQPITSDLPIARRHSLARFLEKRKDRVTSKAPYPIGNAMGGSSKPEESNKKPWLGLGAQ-IPVKIEH</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSG+ SGQKS FS TC L SQ+LK+KGSFGDL +LGI R+ E  G+ T   TMNLLPMIEKSG   + +  KP NLFP    +E       S AK+E EK+QMTIFYGGQV+VF+DFPA+K  EIM LA  K  N  +  +NIFSY   P + +   AES  TN          VP       SQ   +DLPIARR+SL RFLEKRKDR+TS APY I N     SK EE+  K WLGLGA+ +PVK E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|PHT42917.1|</Hit_id>
+  <Hit_def>hypothetical protein CQW23_16942 [Capsicum baccatum]</Hit_def>
+  <Hit_accession>PHT42917</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>3.74626e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTT--------NFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICN--KKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGKLAGQRSHFSHTCSLLSQYLKEKGSLGDLY-LGISRNFDSNG----SATMDLLPMIEKSTAT---DTQKSMNLFLQGA-TKAESSIDKSQMTIFYAGQVIVFNDFPADKAKEIMLMASNNANNTQN--------PINKQAESAVDLVTPAVTMVPPSFANT-SIQEHQMTSQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYQTSNPHKHTANPKKEENKAWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSGK++GQ+S FS TC+L SQ+LK+KGS GDL  LGI R+F+  G    + TM+LLPMIEKS  +   ++QK MNLF Q   + A+S  +K+QMTIFY GQVIVF+DFPADKA EIM +A+   NN QN        P+     SA  + T        +F+     + H   SQ  V+DLPIARR SLTRFLEKRKDR+T+  PYQ  N  K  A+ K EENKAWLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_019240929.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A-like [Nicotiana attenuata] &gt;gb|AFL46165.1| jasmonate ZIM domain protein a [Nicotiana attenuata] &gt;gb|OIT19879.1| protein tify 10a [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019240929</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>6.84346e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVS---GQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLAT-KKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQI--CNKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGKFSAGGGQKSHFSQTCNLLSQYLKEKKGSFGDLS-LGIHRA--------GTTTMDLFPMIEKSGES---NPQKPMNLFPQ---TEAKSESEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASCAKGNN--NSTTQI--------QKTAESALDLVPQPIIS-----------GDLPIARRASLTRFLEKRKDRLIAKAPYQLSNTNKQAAVS---ENKAWLGLGAQF-PVKAEQF</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSGK S   GQKS FSQTCNL SQ+LK KKGSFGDL+ LGI+R+         TTTM+L PMIEKSG+S   N QKPMNLFPQ   + AKSE EKAQMTIFYGGQVIVF+DFPADKA EIM +A+  K NN  N  + I        Q +AES      Q + +            DLPIARR SLTRFLEKRKDR+ + APYQ+   NK+ A S   ENKAWLGLGA+F PVK EQF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_009793297.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A-like [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>XP_009793297</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>7.14979e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSG-----QKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLAT-KKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQI--CNKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFAAAAAGGQKSNFSQTCNLLSQYLKEKKGSFGDLS-LGIHRA--------GTTTMDLLPMIEKSGES---NPQKSMNLFPQ---TEAKSEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASCTKGNN--NCATQI--------QKTAESASDLVPQPIIS-----------GDLPIARRASLTRFLEKRKDRLTAKAPYQLSNTNKQAAVS---ENKAWLGLGAQF-PVKAEQF</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +      QKS FSQTCNL SQ+LK KKGSFGDL+ LGI+R+         TTTM+LLPMIEKSG+S   N QK MNLFPQ   + AKSEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A+  K NN  N A+ I        Q +AES +    Q + +            DLPIARR SLTRFLEKRKDR+T+ APYQ+   NK+ A S   ENKAWLGLGA+F PVK EQF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_009597283.1|</Hit_id>
+  <Hit_def>protein TIFY 10A [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009597283</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>1.37605e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVS---GQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLAT-KKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQIC--NKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEMVDSGRFAAAVGQKSHFSQTCNLLSQYLKEKKGSFGDLS-LGIHRA--------GTTTMDLLPMIEKSGES---NPQKSMYLFPQ---TEAKSEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASCTKGNN--NSTTQI--------QKTAESASDLVPQPIIS-----------GDLPIARRASLTRFLEKRKDRLTAKAPYQLSNPNKQVAVS---ENKAWLELGAQF-PVKTEQF</Hsp_hseq>
+      <Hsp_midline>M SSE+VDSG+ +   GQKS FSQTCNL SQ+LK KKGSFGDL+ LGI+R+         TTTM+LLPMIEKSG+S   N QK M LFPQ   + AKSEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A+  K NN  N  + I        Q +AES +    Q + +            DLPIARR SLTRFLEKRKDR+T+ APYQ+   NK++A S   ENKAWL LGA+F PVKTEQF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|TMW82542.1|</Hit_id>
+  <Hit_def>hypothetical protein EJD97_005669 [Solanum chilense]</Hit_def>
+  <Hit_accession>TMW82542</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.34785e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKA-WLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDMHRNFDLAG----STTMDLLPMIEKSGELV----QKSMNLFPQGGMK-AESEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASTSKGNN-----------PAKPLQSAADLVVPSFGKTSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYH--REEAAAPKKEENKAPWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L ++R+F+  G    +TTM+LLPMIEKSG+      QK MNLFPQ  +  A+SEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A T K NN           P    Q++A+ V  +F +       +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENKA WLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_031106660.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Ipomoea triloba]</Hit_def>
+  <Hit_accession>XP_031106660</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>1.30814e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFP----QEVI-----STAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSY-----PMVNNQNSAESVTTNFSQELRTRTHVP---ISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEEN--KAWLGLGAKFVPVKTEQ</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGRPSAQKSNFSHTCTLLSQYLKEKGSFGDL-SLGISRNFEASG--TAAQTMNLLPMIEKSG---QNSGPKPGNLLPNFTKEETTKKTDSSVAKAETEKSQMTIFYGGQVLVFNDFPAEKVKEIMVLA--KGGNTTHNPPNIFSYNNNNTPTLVSPKPAESSATNMVTPPAVPKVVPNLGNQKPITSDLPIARRHSLARFLEKRKDRVTSKAPYPIGNAMAGSSKPEESNKKAWLGLGAQ-IPVKIEH</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSG+ S QKS FS TC L SQ+LK+KGSFGDL +LGI R+FE +G  T   TMNLLPMIEKSG   + +  KP NL P    +E       S AK+E EK+QMTIFYGGQV+VF+DFPA+K  EIM LA  K  N  +   NIFSY     P + +   AES  TN          VP     +   +DLPIARR+SL RFLEKRKDR+TS APY I N     SK EE+  KAWLGLGA+ +PVK E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_049414027.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Solanum stenotomum]</Hit_def>
+  <Hit_accession>XP_049414027</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.43557e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENK-AWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRYAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDSTG----STTMDLLPMIEKSG----KSVQKSMNLFRQGSMK-AESEPEKAQMTIFYAGQVIVFNDFPADKAKEIMLMASTSKGNN---------THKQLELESAADLVVPSFGSSSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYY---REEAAPKKEENKAAWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+ TG    +TTM+LLPMIEKSG    K+ QK MNLF Q  +  A+SEPEKAQMTIFY GQVIVF+DFPADKA EIM +A T K NN         ++  +  +++A+ V  +F         +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENK AWLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|KAH0650585.1|</Hit_id>
+  <Hit_def>hypothetical protein KY284_030497 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0650585</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>1.65572e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENK-AWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRYAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDSTG----STTMDLLPMIEKSGESV----QKSMNLFRQGAMK-AESEPEKAQMTIFYAGQVIVFNDFPADKAKEIMLMASTSKGNNTHK-----------QLESGADLVVPSFGKSSIQENQMPI----VSDLPIARRASLTRFLEKRKDRLTAKVPYY---REEAVPKKEENKAAWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+ TG    +TTM+LLPMIEKSG+S     QK MNLF Q  +  A+SEPEKAQMTIFY GQVIVF+DFPADKA EIM +A T K NN                ++ A+ V  +F +       +PI    V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENK AWLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_004243696.1|</Hit_id>
+  <Hit_def>protein TIFY 10b-like [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>XP_004243696</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>1.99172e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKA-WLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDMHRNFDSAG----STTMDLLPMIEKSGELV----QKSMNLFPQGGMK-AESEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASTSKGNN-----------PAKPLESAADLVVPSFGKTSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYH--REEAAAPKKEEHKAPWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L ++R+F+  G    +TTM+LLPMIEKSG+      QK MNLFPQ  +  A+SEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A T K NN           P    +++A+ V  +F +       +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EE+KA WLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KAH0653155.1|</Hit_id>
+  <Hit_def>hypothetical protein KY289_030833 [Solanum tuberosum] &gt;gb|KAH0743449.1| hypothetical protein KY290_031442 [Solanum tuberosum]</Hit_def>
+  <Hit_accession>KAH0653155</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.29024e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENK-AWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRYAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDSTG----STTMDLLPMIEKSGESV----QKSMNLFRQGAMK-AESEPEKAQMTIFYAGQVIVFNDFPADKAKEIMLMASTSKGNNTHK-----------QLESGADLVVPSFGKTSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYY---REEAAPKKEENKAAWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+ TG    +TTM+LLPMIEKSG+S     QK MNLF Q  +  A+SEPEKAQMTIFY GQVIVF+DFPADKA EIM +A T K NN                ++ A+ V  +F +       +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENK AWLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>dbj|BAG68657.1|</Hit_id>
+  <Hit_def>jasmonate ZIM-domain protein 3 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>BAG68657</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>5.32358e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSG-----QKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQI--CNKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFAAAAAGGQKSNFSQTCNLLSQYLKEKKGSFGDLS-LGIHRA--------GTTTMDLLPMIEKFGES---NPQKSMNLFPQ---TEAKSEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMAS-CTQGNNNCATQI--------QKTAESASDLVPQPIIS-----------GDLPIARRASLTRFLEKRKDRLTAKAPYQLSNTNKQAAVS---ENKVWLGLGAQF-PVKAEQF</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +      QKS FSQTCNL SQ+LK KKGSFGDL+ LGI+R+         TTTM+LLPMIEK G+S   N QK MNLFPQ   + AKSEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A+  T    N A+ I        Q +AES +    Q + +            DLPIARR SLTRFLEKRKDR+T+ APYQ+   NK+ A S   ENK WLGLGA+F PVK EQF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_006367890.1|</Hit_id>
+  <Hit_def>PREDICTED: protein TIFY 10A-like [Solanum tuberosum]</Hit_def>
+  <Hit_accession>XP_006367890</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>5.80167e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENK-AWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRHAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDSTG----STTMDLLPMIEKSGESV----QKSMNLFRQGAMK-AESEPEKAQMTIFYAGQVIVFNDFPADKAKEIMLMASTSKGNNTHK-----------QLESGADLVVPSFGKTSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYY---REEAAPKKEENKAAWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+ TG    +TTM+LLPMIEKSG+S     QK MNLF Q  +  A+SEPEKAQMTIFY GQVIVF+DFPADKA EIM +A T K NN                ++ A+ V  +F +       +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENK AWLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_049370662.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Solanum verrucosum] &gt;ref|XP_049370663.1| protein TIFY 10A-like [Solanum verrucosum] &gt;ref|XP_049370664.1| protein TIFY 10A-like [Solanum verrucosum] &gt;ref|XP_049370665.1| protein TIFY 10A-like [Solanum verrucosum]</Hit_def>
+  <Hit_accession>XP_049370662</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>7.45592e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENK-AWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRYAGQKSHFSHTCNLLSQYLKEKKGSLGDLS-LDIHRNFDSTG----STTMDLLPMIEKSGESV----QKSMNLFRQGSMK-AESEPEKAQMTIFYAGQVIVFNDFPADKAKEIMLMASTSKGNNTHK-----------QLESAADLVVPSFGSTSIQENQMP-NQPIVSDLPIARRASLTRFLEKRKDRLTAKVPYY---REEAAPKKEENKAAWLGLGGQFA-VKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ +GQKS FS TCNL SQ+LK KKGS GDL+ L I+R+F+ TG    +TTM+LLPMIEKSG+S     QK MNLF Q  +  A+SEPEKAQMTIFY GQVIVF+DFPADKA EIM +A T K NN                +++A+ V  +F         +P +Q  V+DLPIARR SLTRFLEKRKDR+T+  PY    ++ A  K EENK AWLGLG +F  VKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|NP_001312571.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Nicotiana tabacum] &gt;gb|AGU37272.1| jasmonate ZIM-domain protein 3b [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312571</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>1.10588e-68</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>IVDSGKVS---GQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLAT-KKTNNKQNLASNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQIC--NKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MVDSGRFAAAVGQKSHFSQTCNLLSQYLKEKKGSFGDLS-LGIHRA--------GTTTMDLLPMIEKSGES---NPQKSMYLFPQ---TEAKSEPEKAQMTIFYGGQVIVFNDFPADKAKEIMLMASCTKGNN--NSTTQI--------QKTAESASDLVPQPIIS-----------GDLPIARRASLTRFLEKRKDRLTAKAPYQLSNPNKQVAVS---ENKAWLELGAQF-PVKTEQF</Hsp_hseq>
+      <Hsp_midline>+VDSG+ +   GQKS FSQTCNL SQ+LK KKGSFGDL+ LGI+R+         TTTM+LLPMIEKSG+S   N QK M LFPQ   + AKSEPEKAQMTIFYGGQVIVF+DFPADKA EIM +A+  K NN  N  + I        Q +AES +    Q + +            DLPIARR SLTRFLEKRKDR+T+ APYQ+   NK++A S   ENKAWL LGA+F PVKTEQF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ABP35523.1|</Hit_id>
+  <Hit_def>PnFL-2 [Ipomoea batatas]</Hit_def>
+  <Hit_accession>ABP35523</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>3.00257e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFP----QEVI-----STAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLASNIFSY----PMVNNQNSAESVTTNFSQELRTRTHVPI--SQSSVA-DLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEEN--KAWLGLGAKFVPVKTEQ</Hsp_qseq>
+      <Hsp_hseq>MGSSEIVDSGRPSGQKSNFSHTCTLLSQYLKEKGSFGDL-SLGISRNFE--GSGTAAQTMNLLPMIEKSG---QNSGPKPGNLLPNFTKEEATKKTDSSVAKAETEKSQMTIFYGGQVLVFNDFPAEKVKEIMVLA-KGGNPTQN-PPNIFSYNNNTPPLVFPKPVEFSATNMVTPPAVPKVVPTLGNQKPITFDLPIARRHSLARFLEKRKDRVTSKAPYPIGNGMAGSFKPEESNKKAWLGLGAQ-IPVKIEH</Hsp_hseq>
+      <Hsp_midline>MGSSEIVDSG+ SGQKS FS TC L SQ+LK+KGSFGDL +LGI R+FE  G+ T   TMNLLPMIEKSG   + +  KP NL P    +E       S AK+E EK+QMTIFYGGQV+VF+DFPA+K  EIM LA K  N  QN   NIFSY    P +      E   TN          VP   +Q  +  DLPIARR+SL RFLEKRKDR+TS APY I N      K EE+  KAWLGLGA+ +PVK E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_055823400.1|</Hit_id>
+  <Hit_def>protein TIFY 10A-like [Solanum dulcamara]</Hit_def>
+  <Hit_accession>XP_055823400</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>4.08275e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLK-KKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLA-TKKTNNKQNLASNIFS-----YPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MASSEIVDSGRFSGQKSHFSHTCNLLSQYLKEKKGSL----SLDIHRNFVSAG----SATMDLLPMIEKSGE-------KSMNLFPQAAMKT-ESEQDKAQMTIFYAGQVVVFNDFPADKAKEIMLMASTSKGNNTQNPGKQVGSAADLVAPAVNR-------VPSFGN-----TSIQENQTIVSDLPIARRASLTRFLEKRKDRLTAKVPY---HKPVAVPKQEENKGWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SSEIVDSG+ SGQKS FS TCNL SQ+LK KKGS     +L I+R+F   G    + TM+LLPMIEKSG+       K MNLFPQ  + T +SE +KAQMTIFY GQV+VF+DFPADKA EIM +A T K NN QN    + S      P VN          +F       T +  +Q+ V+DLPIARR SLTRFLEKRKDR+T+  PY   +K +A  K EENK WLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KAJ8543371.1|</Hit_id>
+  <Hit_def>hypothetical protein K7X08_005894 [Anisodus acutangulus]</Hit_def>
+  <Hit_accession>KAJ8543371</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>8.3561e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKPMNLFPQEVISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTNNKQNLA----SNIFSYPMVNNQNSAESVTTNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICN--KKIA--DSKNEENKAWLGLGAKFVPVKTEQF</Hsp_qseq>
+      <Hsp_hseq>MPSSDIVDSGRFAGQKSHFSQTCSLLSQYLKEKGSFGDL-SLG-------------STTMDLFPKIEKSGESA---AAKLMNLFPA---MKSESEADKAQMTIFYAGQVIVFNDFPADKAKEIMLMAT--TTNSTSMVPPKPADLVS-PAIN----------------MVPTQMP-SHPIVSDLPIARRASLTRFLEKRKDRLTAKAPYQLSNLHKQGASPSPKVEENKAWLGLGAQF-PVKTEQY</Hsp_hseq>
+      <Hsp_midline>M SS+IVDSG+ +GQKS FSQTC+L SQ+LK+KGSFGDL +LG             +TTM+L P IEKSG+SA   + K MNLFP      ++SE +KAQMTIFY GQVIVF+DFPADKA EIM +AT  T N  ++     +++ S P +N                   T +P S   V+DLPIARR SLTRFLEKRKDR+T+ APYQ+ N  K+ A    K EENKAWLGLGA+F PVKTEQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_022843333.1|</Hit_id>
+  <Hit_def>protein TIFY 10B-like [Olea europaea var. sylvestris] &gt;emb|CAA3021894.1| Hypothetical predicted protein [Olea europaea subsp. europaea]</Hit_def>
+  <Hit_accession>XP_022843333</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>1.2132e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MGSSEIVDSGKVSGQKSQFSQTCNLSSQFLKKKGSFGDLNNLGIYRSFEPTGNQTTTTTMNLLPMIEKSGDSAEKNSQKP-MNLFPQEV--ISTAKSEPEKAQMTIFYGGQVIVFDDFPADKANEIMKLATKKTN-NKQNLASNIFSYPMVNNQNSAESVT-TNFSQELRTRTHVPISQSSVADLPIARRNSLTRFLEKRKDRITSTAPYQICNKKIADSKNEENKAWLGLGAKF</Hsp_qseq>
+      <Hsp_hseq>MGSSEIMDSGKFSGQRSNFSQTCSLLSQYLKEKGSFGDL-TLGLTQNFEPKGAPTATETMNLFPVI---GNSETPTHEKLNMSIIPQKKTDLSGTKSEPETAQMTIFYCGQVMVFEDFPAEKAKEIMLLASKSSSQNHSTTAAAAALAPPSMVQSPAESATNIPVATPVSTFVHNPPQPSLASDLPIARKNSLARFLEKRKDRITSKAPYQ----AMAPPKPIKTEEWLGLAPQY</Hsp_hseq>
+      <Hsp_midline>MGSSEI+DSGK SGQ+S FSQTC+L SQ+LK+KGSFGDL  LG+ ++FEP G  T T TMNL P+I   G+S     +K  M++ PQ+   +S  KSEPE AQMTIFY GQV+VF+DFPA+KA EIM LA+K ++ N    A+     P    Q+ AES T    +  + T  H P   S  +DLPIAR+NSL RFLEKRKDRITS APYQ     +A  K  + + WLGL  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>542683057</Statistics_db-num>
+      <Statistics_db-len>280388955</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
