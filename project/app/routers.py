@@ -2,8 +2,9 @@
 from fastapi import APIRouter, HTTPException
 
 from .models import crud
-from .models.pydantic import ProteinPayloadSchema, ProteinResponseSchema
+from .models.pydantic import ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON
 from .models.tortoise import Protein
+from typing import List
 
 router = APIRouter()
 
@@ -17,6 +18,12 @@ async def create_protein(payload: ProteinPayloadSchema):
 
 @router.get("/proteins/")
 async def get_proteins():
+    proteins = await Protein.all()
+    return proteins
+
+
+@router.get("/protein_json/", response_model=List[ProteinJSON])
+async def get_protein_json():
     proteins = await Protein.all()
     return proteins
 

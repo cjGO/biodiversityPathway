@@ -13,3 +13,8 @@ class ProteinPayloadSchema(BaseModel):
 
 class ProteinResponseSchema(ProteinPayloadSchema):
     id: int
+
+
+class ProteinJSON(BaseModel):
+    primary_accession: str
+    sequence: str
