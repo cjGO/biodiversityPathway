@@ -1,18 +1,15 @@
-from tortoise.contrib.pydantic import pydantic_model_creator
 from tortoise import fields, models
 
 
 class Protein(models.Model):
     id = fields.IntField(pk=True)  # Added primary key field
     primary_accession = fields.TextField()
-    sequence = fields.TextField()
+    sequence = fields.CharField(unique=True, max_length=10000)
     created_at = fields.DatetimeField(auto_now_add=True)
     scientific_name = fields.TextField()
-    common_name = fields.TextField()
     superkingdom = fields.TextField()
     kingdom = fields.TextField()
     order = fields.TextField()
-    family = fields.TextField()
     genus = fields.TextField()
 
     features: fields.ReverseRelation["Features"]  # Added type hint
@@ -43,16 +40,3 @@ class Embeddings(models.Model):  # Changed models.Models to models.Model
     created_at = fields.DatetimeField(auto_now_add=True)
 
     protein_rel: fields.ForeignKeyRelation[Protein]  # Added type hint
-
-
-Protein_Pydantic = pydantic_model_creator(Protein, name="Protein")
-ProteinIn_Pydantic = pydantic_model_creator(
-    Protein, name="ProteinIn", exclude_readonly=True)
-
-Features_Pydantic = pydantic_model_creator(Features, name="Features")
-FeaturesIn_Pydantic = pydantic_model_creator(
-    Features, name="FeaturesIn", exclude_readonly=True)
-
-Embeddings_Pydantic = pydantic_model_creator(Embeddings, name="Embeddings")
-EmbeddingsIn_Pydantic = pydantic_model_creator(
-    Embeddings, name="EmbeddingsIn", exclude_readonly=True)

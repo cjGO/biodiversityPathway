@@ -2,30 +2,43 @@
 from fastapi import APIRouter, HTTPException
 
 from .models import crud
-from .models.schemas import ProteinCreate, Protein, FeaturesCreate, Features, EmbeddingsCreate, Embeddings
+from .models.pydantic import ProteinPayloadSchema, ProteinResponseSchema
+from .models.tortoise import Protein
 
 router = APIRouter()
 
 
-@router.post("/protein/", response_model=Protein)
-async def create_protein(protein: ProteinCreate):
-    return await crud.Protein.create(**protein.dict())
+@router.post("/protein/")
+async def create_protein(payload: ProteinPayloadSchema):
+    protein = Protein(**payload.dict())
+    await protein.save()
+    return None
 
 
-@router.get("/protein/{protein_id}", response_model=Protein)
-async def get_protein(protein_id: int):
-    protein = await crud.Protein.get(id=protein_id)
-    if protein is None:
-        raise HTTPException(status_code=404, detail="Protein not found")
-    return protein
+@router.get("/proteins/")
+async def get_proteins():
+    proteins = await Protein.all()
+    return proteins
 
 
-@router.delete("/protein/{protein_id}", response_model=Protein)
+@router.delete("/protein/{protein_id}")
 async def delete_protein(protein_id: int):
-    protein = await crud.Protein.get(id=protein_id)
-    if protein is None:
-        raise HTTPException(status_code=404, detail="Protein not found")
-    await protein.delete()
-    return protein
+    protein_obj = await Protein.filter(id=protein_id).prefetch_related("protein_obj").first()
+    if not protein_obj:
+        raise HTTPException(
+            status_code=404, detail="Protein with ID {} not found".format(protein_id))
+    await delete_object(Protein, protein_id)
+    return {"message": "Protein with ID {} has been deleted".format(protein_id)}
 
-# Repeat the above pattern for Features and Embeddings
+
+@router.delete("/protein/")
+async def delete_all_proteins():
+    entries_to_delete = Protein.all()
+    await entries_to_delete.delete()
+    return {"message": "All proteins have been deleted"}
+
+
+@router.get("/protein_count/")
+async def count_all_proteins():
+    total_protein_entries = await Protein.all().count()
+    return {"count": total_protein_entries}
