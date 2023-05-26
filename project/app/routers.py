@@ -42,3 +42,12 @@ async def delete_all_proteins():
 async def count_all_proteins():
     total_protein_entries = await Protein.all().count()
     return {"count": total_protein_entries}
+
+
+@router.get("/protein/{primary_accession}")
+async def check_protein_exists(primary_accession: str):
+    protein = await Protein.get(primary_accession=primary_accession)
+    if protein:
+        return {"exists": True}
+    else:
+        return {'exists': False}
