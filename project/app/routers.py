@@ -1,4 +1,5 @@
 # routers.py
+from tortoise.models import Model
 from fastapi import APIRouter, HTTPException
 
 from .models import crud
@@ -21,12 +22,10 @@ async def get_proteins():
     proteins = await Protein.all()
     return proteins
 
-
-@router.get("/protein_json/", response_model=List[ProteinJSON])
-async def get_protein_json():
-    proteins = await Protein.all()
-    return proteins
-
+@router.get("/sequences/")
+async def get_sequences():
+    seqs = await Protein.all().values('sequence','primary_accession')
+    return seqs
 
 @router.delete("/protein/{protein_id}")
 async def delete_protein(protein_id: int):
