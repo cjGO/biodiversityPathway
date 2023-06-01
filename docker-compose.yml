@@ -26,3 +26,8 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+    volumes: # new
+      - web-db-data:/var/lib/postgresql/data
+      
+volumes: # new
+  web-db-data: # new
