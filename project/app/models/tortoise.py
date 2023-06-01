@@ -40,3 +40,12 @@ class Embeddings(models.Model):  # Changed models.Models to models.Model
     created_at = fields.DatetimeField(auto_now_add=True)
 
     protein_rel: fields.ForeignKeyRelation[Protein]  # Added type hint
+
+class AminoAcid(models.Model):
+    id = fields.IntField(pk=True)
+    amino_acid = fields.CharField(max_length=1)
+    location = fields.IntField()
+    embedding = fields.TextField()
+    protein = fields.ForeignKeyField(
+        "models.Protein", related_name="amino_acid")
+    protein_rel: fields.ForeignKeyRelation[Protein]  # Added type hint
