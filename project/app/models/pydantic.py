@@ -20,11 +20,14 @@ class ProteinJSON(BaseModel):
     sequence: str
 
 
-class EmbeddingPayloadSchema(BaseModel):
-    primary_accession: str
+class ProteinEmbeddingPayloadSchema(BaseModel):
+    protein_id: int
     model_name: str
     embedding: str
 
 
-class EmbeddingResponseSchema(EmbeddingPayloadSchema):
-    id: int
+class AminoAcidPayloadSchema(BaseModel):
+    amino_acid: str
+    location: int
+    embeddings: str
+    protein_id: int

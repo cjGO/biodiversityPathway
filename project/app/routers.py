@@ -3,18 +3,14 @@ from tortoise.models import Model
 from fastapi import APIRouter, HTTPException
 
 from .models import crud
-from .models.pydantic import ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON
-from .models.tortoise import Protein
+from .models.pydantic import ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON, AminoAcidPayloadSchema, ProteinEmbeddingPayloadSchema
+from .models.tortoise import Protein, AminoAcid
 from typing import List
 
 router = APIRouter()
 
 
-@router.post("/protein/")
-async def create_protein(payload: ProteinPayloadSchema):
-    protein = Protein(**payload.dict())
-    await protein.save()
-    return None
+
 
 
 @router.get("/proteins/")
@@ -57,3 +53,32 @@ async def check_protein_exists(primary_accession: str):
         return {"exists": True}
     else:
         return {'exists': False}
+
+
+
+
+@router.post("/protein/")
+async def create_protein(payload: ProteinPayloadSchema):
+    protein = Protein(**payload.dict())
+    await protein.save()
+    return None
+
+@router.post("/upload_aminoacid_embedding/")
+async def create_amino_acid(amino_acid: AminoAcidPayloadSchema):
+    amino_acid_obj = await AminoAcid.create(
+        amino_acid=amino_acid.amino_acid,
+        location=amino_acid.location,
+        embeddings=amino_acid.embeddings,
+        protein_id=amino_acid.protein_id,
+    )
+    return {"id": amino_acid_obj.id}
+
+@router.post("/upload_protein_embedding/")
+async def create_amino_acid(amino_acid: AminoAcidPayloadSchema):
+    amino_acid_obj = await AminoAcid.create(
+        amino_acid=amino_acid.amino_acid,
+        location=amino_acid.location,
+        embeddings=amino_acid.embeddings,
+        protein_id=amino_acid.protein_id,
+    )
+    return {"id": amino_acid_obj.id}

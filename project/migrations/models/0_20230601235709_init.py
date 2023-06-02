@@ -14,20 +14,17 @@ async def upgrade(db: BaseDBAsyncClient) -> str:
     "order" TEXT NOT NULL,
     "genus" TEXT NOT NULL
 );
-CREATE TABLE IF NOT EXISTS "embeddings" (
+CREATE TABLE IF NOT EXISTS "aminoacid" (
     "id" SERIAL NOT NULL PRIMARY KEY,
-    "embedding" TEXT NOT NULL,
-    "model_name" TEXT NOT NULL,
-    "created_at" TIMESTAMPTZ NOT NULL  DEFAULT CURRENT_TIMESTAMP,
+    "amino_acid" VARCHAR(1) NOT NULL,
+    "location" INT NOT NULL,
+    "embeddings" TEXT NOT NULL,
     "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE
 );
-CREATE TABLE IF NOT EXISTS "features" (
+CREATE TABLE IF NOT EXISTS "protein_embeddings" (
     "id" SERIAL NOT NULL PRIMARY KEY,
-    "type" TEXT NOT NULL,
-    "description" TEXT NOT NULL,
-    "ligand" TEXT NOT NULL,
-    "start" INT NOT NULL,
-    "end" INT NOT NULL,
+    "model_name" VARCHAR(255) NOT NULL,
+    "embeddings" TEXT NOT NULL,
     "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS "aerich" (
