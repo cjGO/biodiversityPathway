@@ -71,14 +71,19 @@ async def create_amino_acid(amino_acid: AminoAcidPayloadSchema):
         embeddings=amino_acid.embeddings,
         protein_id=amino_acid.protein_id,
     )
-    return {"id": amino_acid_obj.id}
+    return {"message": f'{amino_acid_obj.id} uploaded successfully!'}
 
 @router.post("/upload_protein_embedding/")
-async def create_amino_acid(amino_acid: AminoAcidPayloadSchema):
-    amino_acid_obj = await AminoAcid.create(
-        amino_acid=amino_acid.amino_acid,
-        location=amino_acid.location,
-        embeddings=amino_acid.embeddings,
-        protein_id=amino_acid.protein_id,
+async def create_protein_embedding(protein_embed: ProteinEmbeddingPayloadSchema):
+    try:
+        protein = await Protein.get(id=protein_embed.protein_id)
+    except DoesNotExist:
+        raise HTTPException(status_code=404, detail="Protein not found")
+
+    protein_embedding = await ProteinEmbeddings.create(
+        protein_id=protein.id,
+        model_name=protein_embed.model_name,
+        embeddings=protein_embed.embedding
     )
-    return {"id": amino_acid_obj.id}
+
+    return {"message": f"Protein embedding for protein with id {protein.id} has been created successfully."}

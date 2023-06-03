@@ -25,6 +25,9 @@ class AminoAcid(models.Model):
         "models.Protein", related_name="amino_acids"
     )
 
+    class Meta:
+        unique_together = ("location", "protein")
+
 class ProteinEmbeddings(models.Model):
     id = fields.IntField(pk=True)
     protein = fields.ForeignKeyField('models.Protein', related_name='protein_embeddings')
