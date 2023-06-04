@@ -26,6 +26,7 @@ class ProteinEmbeddingPayloadSchema(BaseModel):
     embedding: str
 
 
+
 class AminoAcidPayloadSchema(BaseModel):
     amino_acid: str
     location: int
