@@ -14,6 +14,11 @@ class ProteinPayloadSchema(BaseModel):
 class ProteinResponseSchema(ProteinPayloadSchema):
     id: int
 
+class EmbeddingPayloadSchema(BaseModel):
+    model_name : str
+    embedding_str : str
+    protein_id : int
+    
 
 class ProteinJSON(BaseModel):
     primary_accession: str
