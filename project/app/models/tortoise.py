@@ -39,3 +39,18 @@ class ProteinEmbeddings(models.Model):
 
     def __str__(self):
         return self.model_name
+
+
+class ProteinUMAP(models.Model):
+    id = fields.IntField(pk=True)
+    protein = fields.ForeignKeyField('models.Protein', related_name='protein_umap')
+    umap_component1 = fields.FloatField()
+    umap_component2 = fields.FloatField()
+    umap_component3 = fields.FloatField()
+    umap_component4 = fields.FloatField()
+
+    class Meta:
+        table = "ProteinUMAP"
+
+    def __str__(self):
+        return f"{self.protein.primary_accession}: ({self.umap_component1}, {self.umap_component2} {self.umap_component3} {self.umap_component4})"

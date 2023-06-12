@@ -18,7 +18,6 @@ class EmbeddingPayloadSchema(BaseModel):
     model_name : str
     embedding_str : str
     protein_id : int
-    
 
 class ProteinJSON(BaseModel):
     primary_accession: str
@@ -37,3 +36,12 @@ class AminoAcidPayloadSchema(BaseModel):
     location: int
     embeddings: str
     protein_id: int
+
+
+
+class ProteinUMAPPayloadSchema(BaseModel):
+    protein_id: int
+    umap_component1: float
+    umap_component2: float
+    umap_component3: float
+    umap_component4: float
