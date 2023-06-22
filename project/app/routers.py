@@ -207,3 +207,17 @@ async def get_protein_umaps(protein_ids: str):
     if not protein_umaps:
         raise HTTPException(status_code=404, detail="ProteinUMAPs not found")
     return protein_umaps
+
+@router.get("/protein_umaps", responses={404: {"model": HTTPNotFoundError}})
+async def get_all_protein_umaps():
+    protein_umaps = await ProteinUMAP.all().prefetch_related("protein")
+    if not protein_umaps:
+        raise HTTPException(status_code=404, detail="No ProteinUMAPs found")
+    return protein_umaps
+
+@router.get("/all_protein_umaps", responses={404: {"model": HTTPNotFoundError}})
+async def get_all_protein_umaps():
+    protein_umaps = await ProteinUMAP.all().prefetch_related("protein")
+    if not protein_umaps:
+        raise HTTPException(status_code=404, detail="No ProteinUMAPs found")
+    return protein_umaps
