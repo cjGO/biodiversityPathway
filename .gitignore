@@ -4,3 +4,4 @@
 ./project/db/data/
 /project/db/data
 ./letsencrypt
+/letsencrypt/*
