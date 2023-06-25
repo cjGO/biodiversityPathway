@@ -221,3 +221,12 @@ async def get_all_protein_umaps():
     if not protein_umaps:
         raise HTTPException(status_code=404, detail="No ProteinUMAPs found")
     return protein_umaps
+
+
+@router.get("/amino_acids/{protein_id}", responses={404: {"model": HTTPNotFoundError}})
+async def get_amino_acids(protein_id: int):
+    try:
+        amino_acids = await AminoAcid.filter(protein_id=protein_id).prefetch_related("protein").all()
+    except DoesNotExist:
+        raise HTTPException(status_code=404, detail="No amino acids found for given protein ID")
+    return amino_acids
