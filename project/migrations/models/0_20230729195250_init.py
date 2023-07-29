@@ -7,12 +7,11 @@ async def upgrade(db: BaseDBAsyncClient) -> str:
     "id" SERIAL NOT NULL PRIMARY KEY,
     "primary_accession" TEXT NOT NULL,
     "sequence" VARCHAR(10000) NOT NULL UNIQUE,
-    "created_at" TIMESTAMPTZ NOT NULL  DEFAULT CURRENT_TIMESTAMP,
     "scientific_name" TEXT NOT NULL,
-    "superkingdom" TEXT NOT NULL,
-    "kingdom" TEXT NOT NULL,
-    "order" TEXT NOT NULL,
-    "genus" TEXT NOT NULL
+    "species_name" TEXT NOT NULL,
+    "uniprot_id" TEXT NOT NULL,
+    "biological_process" TEXT NOT NULL,
+    "created_at" TIMESTAMPTZ NOT NULL  DEFAULT CURRENT_TIMESTAMP
 );
 CREATE TABLE IF NOT EXISTS "aminoacid" (
     "id" SERIAL NOT NULL PRIMARY KEY,
@@ -28,7 +27,7 @@ CREATE TABLE IF NOT EXISTS "protein_embeddings" (
     "embeddings" TEXT NOT NULL,
     "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE
 );
-CREATE TABLE IF NOT EXISTS "protein_umap" (
+CREATE TABLE IF NOT EXISTS "ProteinUMAP" (
     "id" SERIAL NOT NULL PRIMARY KEY,
     "umap_component1" DOUBLE PRECISION NOT NULL,
     "umap_component2" DOUBLE PRECISION NOT NULL,

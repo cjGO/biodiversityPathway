@@ -51,11 +51,12 @@ async def count_all_proteins():
 
 @router.get("/protein/{primary_accession}")
 async def check_protein_exists(primary_accession: str):
-    protein = await Protein.get(primary_accession=primary_accession)
-    if protein:
-        return {"exists": True}
-    else:
-        return {'exists': False}
+    try:
+        protein = await Protein.get(primary_accession=primary_accession)
+        return protein
+    except DoesNotExist:
+        raise HTTPException(status_code=404, detail="Protein not found")
+
 
 @router.post("/protein/")
 async def create_protein(payload: ProteinPayloadSchema):

@@ -22,6 +22,9 @@ class AminoAcid(models.Model):
     protein = fields.ForeignKeyField(
         "models.Protein", related_name="amino_acids"
     )
+    binding = fields.BooleanField(null=True)  # new boolean field
+    ligand = fields.CharField(max_length=500, null=True)  # new string field
+
 
     class Meta:
         unique_together = ("location", "protein")
