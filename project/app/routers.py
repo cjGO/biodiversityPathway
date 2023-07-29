@@ -57,9 +57,6 @@ async def check_protein_exists(primary_accession: str):
     else:
         return {'exists': False}
 
-
-
-
 @router.post("/protein/")
 async def create_protein(payload: ProteinPayloadSchema):
     protein = Protein(**payload.dict())

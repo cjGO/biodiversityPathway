@@ -5,13 +5,11 @@ class Protein(models.Model):
     id = fields.IntField(pk=True)  # Added primary key field
     primary_accession = fields.TextField()
     sequence = fields.CharField(unique=True, max_length=10000)
-    created_at = fields.DatetimeField(auto_now_add=True)
     scientific_name = fields.TextField()
-    superkingdom = fields.TextField()
-    kingdom = fields.TextField()
-    order = fields.TextField()
-    genus = fields.TextField()
-
+    species_name = fields.TextField()
+    uniprot_id = fields.TextField()
+    biological_process = fields.TextField()
+    created_at = fields.DatetimeField(auto_now_add=True)
 
     def __str__(self):
         return self.sequence
