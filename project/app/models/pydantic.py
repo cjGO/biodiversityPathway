@@ -5,10 +5,9 @@ class ProteinPayloadSchema(BaseModel):
     primary_accession: str
     sequence: str
     scientific_name: str
-    superkingdom: str
-    kingdom: str
-    order: str
-    genus: str
+    species_name: str
+    uniprot_id: str
+    biological_process: str
 
 
 class ProteinResponseSchema(ProteinPayloadSchema):

@@ -54,6 +54,3 @@ class ProteinUMAP(models.Model):
 
     def __str__(self):
         return f"{self.protein.primary_accession}: ({self.umap_component1}, {self.umap_component2} {self.umap_component3} {self.umap_component4})"
-
-
-#todo AAfeatures table -> mark which aa are in functional domains 
