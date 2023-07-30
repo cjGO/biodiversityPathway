@@ -44,3 +44,6 @@ class ProteinUMAPPayloadSchema(BaseModel):
     umap_component2: float
     umap_component3: float
     umap_component4: float
+
+class AminoAcidBindingSiteSchema(BaseModel):
+    ligand: str

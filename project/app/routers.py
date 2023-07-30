@@ -2,9 +2,10 @@
 from tortoise.models import Model
 from fastapi import APIRouter, HTTPException
 from tortoise.exceptions import DoesNotExist, IntegrityError
+from tortoise.contrib.pydantic import pydantic_queryset_creator
 
 from .models import crud
-from .models.pydantic import ProteinUMAPPayloadSchema, EmbeddingPayloadSchema, ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON, AminoAcidPayloadSchema, ProteinEmbeddingPayloadSchema
+from .models.pydantic import AminoAcidBindingSiteSchema,ProteinUMAPPayloadSchema, EmbeddingPayloadSchema, ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON, AminoAcidPayloadSchema, ProteinEmbeddingPayloadSchema
 from .models.tortoise import ProteinUMAP, Protein, AminoAcid, ProteinEmbeddings
 from typing import List
 from tortoise.transactions import in_transaction
@@ -164,7 +165,10 @@ async def delete_all_aa_embeddings():
 async def delete_all_p_embeddings():
     count = await ProteinEmbeddings.all().delete()
     return {"message": f"{count} records deleted successfully!"}
-
+@router.delete("/delete_all_protein_umap/")
+async def delete_all_protein_umap():
+    count = await ProteinUMAP.all().delete()
+    return {"message": f"{count} records deleted successfully!"}
 
 
 @router.post('/upload_umap')
@@ -228,3 +232,25 @@ async def get_amino_acids(protein_id: int):
     except DoesNotExist:
         raise HTTPException(status_code=404, detail="No amino acids found for given protein ID")
     return amino_acids
+
+
+@router.post("/bs_amino_acids/{id}")
+async def update_amino_acid(id: int, amino_acid: AminoAcidBindingSiteSchema):
+    # Get the AminoAcid instance
+    amino_acid_instance = await AminoAcid.get_or_none(id=id)
+    if not amino_acid_instance:
+        raise HTTPException(status_code=404, detail="Amino Acid not found")
+
+    # Check if binding is already True
+    if amino_acid_instance.binding:
+        # If binding is True, return the instance without making changes
+        return amino_acid_instance
+    else:
+        # If binding is not True, update the fields
+        amino_acid_instance.binding = True
+        amino_acid_instance.ligand = amino_acid.ligand
+
+        # Save the updated instance
+        await amino_acid_instance.save()    
+
+    return amino_acid_instance

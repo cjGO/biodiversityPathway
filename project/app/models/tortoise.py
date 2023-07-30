@@ -44,7 +44,7 @@ class ProteinEmbeddings(models.Model):
 
 class ProteinUMAP(models.Model):
     id = fields.IntField(pk=True)
-    protein = fields.ForeignKeyField('models.Protein', related_name='protein_umap')
+    protein = fields.ForeignKeyField('models.Protein', related_name='protein_umap', unique=True)
     umap_component1 = fields.FloatField()
     umap_component2 = fields.FloatField()
     umap_component3 = fields.FloatField()
