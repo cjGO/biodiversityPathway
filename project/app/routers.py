@@ -6,7 +6,7 @@ from tortoise.contrib.pydantic import pydantic_queryset_creator
 
 from .models import crud
 from .models.pydantic import AminoAcidBindingSiteSchema,ProteinUMAPPayloadSchema, EmbeddingPayloadSchema, ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON, AminoAcidPayloadSchema, ProteinEmbeddingPayloadSchema
-from .models.tortoise import ProteinUMAP, Protein, AminoAcid, ProteinEmbeddings
+from .models.tortoise import ProteinUMAP, Protein, AminoAcid, ProteinEmbeddings, AminoAcidEmbedding
 from typing import List
 from tortoise.transactions import in_transaction
 from tortoise.contrib.fastapi import HTTPNotFoundError
@@ -22,11 +22,6 @@ async def get_proteins():
     proteins = await Protein.all()
     return proteins
 
-@router.get("/sequences/")
-async def get_sequences():
-    seqs = await Protein.all().values('sequence','primary_accession')
-    return seqs
-
 @router.delete("/protein/{protein_id}")
 async def delete_protein(protein_id: int):
     protein_obj = await Protein.filter(id=protein_id).prefetch_related("protein_obj").first()
@@ -36,13 +31,16 @@ async def delete_protein(protein_id: int):
     await delete_object(Protein, protein_id)
     return {"message": "Protein with ID {} has been deleted".format(protein_id)}
 
+@router.get("/sequences/")
+async def get_sequences():
+    seqs = await Protein.all().values('sequence','primary_accession')
+    return seqs
 
 @router.delete("/protein/")
 async def delete_all_proteins():
     entries_to_delete = Protein.all()
     await entries_to_delete.delete()
     return {"message": "All proteins have been deleted"}
-
 
 @router.get("/protein_count/")
 async def count_all_proteins():
@@ -67,7 +65,6 @@ async def create_protein(payload: ProteinPayloadSchema):
 
 @router.post('/upload_embeddings/')
 async def upload_embedding(payload: EmbeddingPayloadSchema):
-    embedding_size = 320 # HARDCODED, big mistake should have sent this var in payload...
     protein_id = payload.protein_id
     model_name = payload.model_name
     errors = ''
@@ -254,3 +251,18 @@ async def update_amino_acid(id: int, amino_acid: AminoAcidBindingSiteSchema):
         await amino_acid_instance.save()    
 
     return amino_acid_instance
+
+
+
+import random
+
+@router.get("/protein_embedding_random/")
+async def get_random_protein_embedding():
+    try:
+        total_protein_embeddings = await ProteinEmbeddings.all().count()
+        random_index = random.randint(0, total_protein_embeddings - 1)
+        protein_embedding = await ProteinEmbeddings.all().limit(1).offset(random_index).first()
+
+        return protein_embedding
+    except DoesNotExist:
+        raise HTTPException(status_code=404, detail="Protein embedding not found")

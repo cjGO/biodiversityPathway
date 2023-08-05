@@ -17,6 +17,7 @@ class EmbeddingPayloadSchema(BaseModel):
     model_name : str
     embedding_str : str
     protein_id : int
+    embedding_size : int
 
 class ProteinJSON(BaseModel):
     primary_accession: str

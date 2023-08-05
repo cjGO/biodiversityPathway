@@ -18,16 +18,33 @@ class AminoAcid(models.Model):
     id = fields.IntField(pk=True)
     amino_acid = fields.CharField(max_length=1)
     location = fields.IntField()
-    embeddings = fields.TextField()
     protein = fields.ForeignKeyField(
         "models.Protein", related_name="amino_acids"
     )
-    binding = fields.BooleanField(null=True)  # new boolean field
-    ligand = fields.CharField(max_length=500, null=True)  # new string field
+    binding = fields.BooleanField(null=True)
+    ligand = fields.CharField(max_length=500, null=True)
 
 
     class Meta:
         unique_together = ("location", "protein")
+
+
+class AminoAcidEmbedding(models.Model):
+    id = fields.IntField(pk=True)
+    amino_acid = fields.ForeignKeyField('models.AminoAcid', related_name='amino_acid_embeddings')
+    protein = fields.ForeignKeyField('models.Protein', related_name='protein_amino_acid_embeddings')
+    model_name = fields.CharField(max_length=255)
+    embeddings = fields.TextField()
+    embedding_size = fields.IntField()
+
+    class Meta:
+        table = "AminoAcidEmbeddings"
+        unique_together = ("protein", "model_name")
+
+    def __str__(self):
+        return self.model_name
+
+
 
 class ProteinEmbeddings(models.Model):
     id = fields.IntField(pk=True)
@@ -37,9 +54,11 @@ class ProteinEmbeddings(models.Model):
 
     class Meta:
         table = "protein_embeddings"
+        unique_together = ("protein", "model_name")
 
     def __str__(self):
         return self.model_name
+
 
 
 class ProteinUMAP(models.Model):
@@ -49,6 +68,8 @@ class ProteinUMAP(models.Model):
     umap_component2 = fields.FloatField()
     umap_component3 = fields.FloatField()
     umap_component4 = fields.FloatField()
+    model_name = fields.CharField(max_length=255, default='esm2_t6_8M_UR50D')
+    unique_together = ("protein", "model_name")
 
     class Meta:
         table = "ProteinUMAP"
