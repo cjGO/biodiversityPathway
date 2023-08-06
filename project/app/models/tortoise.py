@@ -21,6 +21,8 @@ class AminoAcid(models.Model):
     protein = fields.ForeignKeyField(
         "models.Protein", related_name="amino_acids"
     )
+    binding_site = fields.TextField(max_length=500, null=True)
+    active_site = fields.TextField(null=True)
     class Meta:
         unique_together = ("location", "protein")
 
@@ -35,7 +37,7 @@ class AminoAcidEmbedding(models.Model):
     protein = fields.ForeignKeyField('models.Protein', related_name='protein_amino_acid_embedding')
     model_name = fields.CharField(max_length=255)
     embeddings = fields.TextField()
-    embedding_size = fields.IntField()
+    #embedding_size = fields.IntField()
 
     class Meta:
         table = "AminoAcidEmbedding"
@@ -53,7 +55,7 @@ class ProteinEmbedding(models.Model):
     embeddings = fields.TextField()
 
     class Meta:
-        table = "protein_embeddings"
+        table = "protein_embedding"
         unique_together = ("protein", "model_name")
 
     def __str__(self):

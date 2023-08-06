@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS "aminoacid" (
     "id" SERIAL NOT NULL PRIMARY KEY,
     "amino_acid" VARCHAR(1) NOT NULL,
     "location" INT NOT NULL,
-    "binding_site" VARCHAR(500),
+    "binding_site" TEXT,
     "active_site" TEXT,
     "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE,
     CONSTRAINT "uid_aminoacid_locatio_7478a0" UNIQUE ("location", "protein_id")
