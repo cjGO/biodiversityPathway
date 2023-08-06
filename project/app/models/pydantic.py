@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-
+from typing import List,Dict, Optional
 
 class ProteinPayloadSchema(BaseModel):
     primary_accession: str
@@ -8,6 +8,7 @@ class ProteinPayloadSchema(BaseModel):
     species_name: str
     uniprot_id: str
     biological_process: str
+    aa_features:str
 
 
 class ProteinResponseSchema(ProteinPayloadSchema):
@@ -37,7 +38,11 @@ class AminoAcidPayloadSchema(BaseModel):
     embeddings: str
     protein_id: int
 
-
+class AminoAcidEmbeddingchema(BaseModel):
+    amino_acid_id: int
+    location: int
+    embeddings: str
+    protein_id: int
 
 class ProteinUMAPPayloadSchema(BaseModel):
     protein_id: int

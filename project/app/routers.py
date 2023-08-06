@@ -3,266 +3,110 @@ from tortoise.models import Model
 from fastapi import APIRouter, HTTPException
 from tortoise.exceptions import DoesNotExist, IntegrityError
 from tortoise.contrib.pydantic import pydantic_queryset_creator
+from tortoise.functions import Count
 
 from .models import crud
 from .models.pydantic import AminoAcidBindingSiteSchema,ProteinUMAPPayloadSchema, EmbeddingPayloadSchema, ProteinPayloadSchema, ProteinResponseSchema, ProteinJSON, AminoAcidPayloadSchema, ProteinEmbeddingPayloadSchema
-from .models.tortoise import ProteinUMAP, Protein, AminoAcid, ProteinEmbeddings, AminoAcidEmbedding
+from .models.tortoise import ProteinUMAP, Protein, AminoAcid, ProteinEmbedding, AminoAcidEmbedding
 from typing import List
 from tortoise.transactions import in_transaction
 from tortoise.contrib.fastapi import HTTPNotFoundError
+import ast
+
+
 
 router = APIRouter()
 
+def scan_features(aa_feature_list, index):
+  hits = {}
+  for i in aa_feature_list:
+      if (i['type'] == 'Binding site'):
+          start = i['location']['start']['value']
+          end = i['location']['end']['value']
+          if start <= index <= end:
+            hits['Binding site'] = i['ligand']['name']
+      if (i['type'] == 'Active site'):
+          start = i['location']['start']['value']
+          end = i['location']['end']['value']
+          if start <= index <= end:
+            hits['Active site'] = i['description']
+  return hits
 
 
+    # aa_feature_list = ast.literal_eval(payload.aa_features)
+    # for i in aa_feature_list:
+    #     if ((i['type'] == 'Binding site') or (i['type'] == 'Active site')):
+    #         print(i)
 
+    #Make new Protein entry
 
-@router.get("/proteins/")
+# @router.post('/upload_uniprot_protein/')
+# async def upload_uniprot_protein(payload: ProteinPayloadSchema):
+    # PAYLOAD SCHEMA
+    # primary_accession: str
+    # sequence: str
+    # scientific_name: str
+    # species_name: str
+    # uniprot_id: str
+    # biological_process: str
+    # aa_features:str
+
+    # protein = await Protein.create()(
+    #     primary_accession=payload.primary_accession,
+    #     sequence=payload.sequence,
+    #     scientific_name=payload.scientific_name,
+    #     species_name=payload.species_name,
+    #     uniprot_id=payload.uniprot_id,
+    #     biological_process=payload.biological_process,
+    # )
+@router.get('/proteins/')
 async def get_proteins():
-    proteins = await Protein.all()
-    return proteins
+    total_proteins = await Protein.all().count()
+    proteins = await Protein.all().limit(5)
+    return {
+        'total_proteins': total_proteins,
+        'proteins': list(proteins),
+    }
 
-@router.delete("/protein/{protein_id}")
-async def delete_protein(protein_id: int):
-    protein_obj = await Protein.filter(id=protein_id).prefetch_related("protein_obj").first()
-    if not protein_obj:
-        raise HTTPException(
-            status_code=404, detail="Protein with ID {} not found".format(protein_id))
-    await delete_object(Protein, protein_id)
-    return {"message": "Protein with ID {} has been deleted".format(protein_id)}
-
-@router.get("/sequences/")
-async def get_sequences():
-    seqs = await Protein.all().values('sequence','primary_accession')
-    return seqs
-
-@router.delete("/protein/")
-async def delete_all_proteins():
-    entries_to_delete = Protein.all()
-    await entries_to_delete.delete()
-    return {"message": "All proteins have been deleted"}
-
-@router.get("/protein_count/")
-async def count_all_proteins():
-    total_protein_entries = await Protein.all().count()
-    return {"count": total_protein_entries}
-
-
-@router.get("/protein/{primary_accession}")
-async def check_protein_exists(primary_accession: str):
-    try:
-        protein = await Protein.get(primary_accession=primary_accession)
-        return protein
-    except DoesNotExist:
-        raise HTTPException(status_code=404, detail="Protein not found")
-
-
-@router.post("/protein/")
-async def create_protein(payload: ProteinPayloadSchema):
-    protein = Protein(**payload.dict())
-    await protein.save()
-    return None
-
-@router.post('/upload_embeddings/')
-async def upload_embedding(payload: EmbeddingPayloadSchema):
-    protein_id = payload.protein_id
-    model_name = payload.model_name
-    errors = ''
-
-    #confirm protein already exists in database
-    try:
-        protein = await Protein.get(id=protein_id)
-        sequence = protein.sequence
-    except DoesNotExist:
-        errors += "Protein with the provided id does not exist."
-
-    #confirm the amino acid embeddings haven't already been uploaded
-    try:
-        # Try to get the AminoAcid, if it exists an error will be thrown
-        amino_acid = await AminoAcid.get(protein_id=protein_id, location=1)
-        raise IntegrityError("Amino Acid at the provided location for the given protein id already exists.")
-    except DoesNotExist:
-        pass
-
-    #extract each amino acids individual embedding
-    aa_embeddings = payload.embedding_str.split()
-    aa_embeddings = [aa_embeddings[i:i+embedding_size] for i in range(0, len(aa_embeddings), embedding_size)]
-    for c,i in enumerate(aa_embeddings):
-        location = c
-        aa_embedding = i
-        aa = sequence[location]
-        #print(c)
-        # create new AminoAcid entry
-        await AminoAcid.create(
-            amino_acid=aa, 
-            location=c, 
-            embeddings=aa_embeddings[c], 
-            protein_id=protein_id,
-        )
-    #convert the list of strings into 
-    #get protein embedding e.g. average of each aa sublist for each index
-    averages = [sum(float(val) for val in values) / len(values) for values in zip(*aa_embeddings)]
-    #convert back to a string and round decimals
-    protein_embedding = ' '.join(f'{num:.4f}' for num in averages)
-
-    # Try to create the ProteinEmbeddings entry
-    try:
-        await ProteinEmbeddings.create(
-            protein_id = protein_id,
-            model_name = model_name,
-            embeddings = protein_embedding,
-        )
-    except IntegrityError:
-        errors += "ProteinEmbeddings entry for the given protein and model already exists."
+@router.post('/upload_uniprot_protein/')
+async def upload_uniprot_protein(payload: ProteinPayloadSchema):
     
-    if errors:
-        return {"error": errors}
+    existing_protein = await Protein.filter(primary_accession=payload.primary_accession).first()
+    if existing_protein:
+        print('it exists!')
+        protein = existing_protein  # use the existing protein for further operations
     else:
-        return {'ok':'ok'}
-
-@router.get("/aa_embeddings/")
-async def get_aa_embeddings():
-    seqs = await AminoAcid.all()
-    return seqs
-
-@router.get("/p_embeddings/")
-async def get_protein_embeddings():
-    seqs = await ProteinEmbeddings.all()
-    return seqs
-
-@router.get("/count_aa_embeddings/")
-async def get_aa_embeddings():
-    seqs = await AminoAcid.all().count()
-    return seqs
-
-@router.get("/count_p_embeddings/")
-async def get_p_embeddings():
-    seqs = await ProteinEmbeddings.all().count()
-    return seqs
+        protein = await Protein.create(
+            primary_accession=payload.primary_accession,
+            sequence=payload.sequence,
+            scientific_name=payload.scientific_name,
+            species_name=payload.species_name,
+            uniprot_id=payload.uniprot_id,
+            biological_process=payload.biological_process,
+        )
 
 
-@router.delete("/delete_all_aa_embeddings/")
-async def delete_all_aa_embeddings():
-    chunk_size = 1000  # Adjust this to a number that your server can handle
-    count = 0
+    #handle amino acids
+    aa_feature_list = ast.literal_eval(payload.aa_features)
+    for i in aa_feature_list:
+        if i['type'] == 'Binding site':
+            print(i)
+    # Inside your loop:
+    for c, i in enumerate(payload.sequence):
+        x = scan_features(aa_feature_list, c)
+        
+        activeSite = ''  # Initialize activeSite to empty string
+        bs = ''  # Initialize bs to empty string
 
-    while True:
-        async with in_transaction("default") as transaction:
-            results = await AminoAcid.all().limit(chunk_size).values_list("id", flat=True)
-            if not results:
-                break
+        if 'Binding site' in x:
+            bs = x['Binding site']
 
-            await transaction.execute_query("DELETE FROM aminoacid WHERE id IN " + str(tuple(results)))
+        if 'Active site' in x:
+            activeSite = x['Active site']
 
-            count += len(results)
+        aa = await AminoAcid.create(
+            amino_acid=payload.sequence[c],
+            location=int(c),
+            protein=protein,
+        )
 
-    return {"message": f"{count} records deleted successfully!"}
-
-@router.delete("/delete_all_p_embeddings/")
-async def delete_all_p_embeddings():
-    count = await ProteinEmbeddings.all().delete()
-    return {"message": f"{count} records deleted successfully!"}
-@router.delete("/delete_all_protein_umap/")
-async def delete_all_protein_umap():
-    count = await ProteinUMAP.all().delete()
-    return {"message": f"{count} records deleted successfully!"}
-
-
-@router.post('/upload_umap')
-async def upload_umap(payload: ProteinUMAPPayloadSchema):
-    # First, we need to ensure that the protein_id provided actually exists in the Protein table
-    try:
-        protein = await Protein.get(id=payload.protein_id)
-    except DoesNotExist:
-        raise HTTPException(status_code=404, detail="Protein not found")
-
-    # Now we create a new ProteinUMAP object with the data from the request
-    protein_umap_obj = ProteinUMAP(
-        protein=protein,
-        umap_component1=payload.umap_component1,
-        umap_component2=payload.umap_component2,
-        umap_component3=payload.umap_component3,
-        umap_component4=payload.umap_component4,
-    )
-
-    # Save the new object to the database
-    await protein_umap_obj.save()
-
-    # Return the newly created object
-    return 'ok'
-
-
-@router.get("/protein_umap/{protein_id}", responses={404: {"model": HTTPNotFoundError}})
-async def get_protein_umap(protein_id: int):
-    protein_umap = await ProteinUMAP.filter(protein_id=protein_id).prefetch_related("protein")
-    if not protein_umap:
-        raise HTTPException(status_code=404, detail="ProteinUMAP not found")
-    return protein_umap
-
-@router.get("/protein_umaps/", responses={404: {"model": HTTPNotFoundError}})
-async def get_protein_umaps(protein_ids: str):
-    ids = [int(id) for id in protein_ids.split(',')]
-    protein_umaps = await ProteinUMAP.filter(protein_id__in=ids).prefetch_related("protein")
-    if not protein_umaps:
-        raise HTTPException(status_code=404, detail="ProteinUMAPs not found")
-    return protein_umaps
-
-@router.get("/protein_umaps", responses={404: {"model": HTTPNotFoundError}})
-async def get_all_protein_umaps():
-    protein_umaps = await ProteinUMAP.all().prefetch_related("protein")
-    if not protein_umaps:
-        raise HTTPException(status_code=404, detail="No ProteinUMAPs found")
-    return protein_umaps
-
-@router.get("/all_protein_umaps", responses={404: {"model": HTTPNotFoundError}})
-async def get_all_protein_umaps():
-    protein_umaps = await ProteinUMAP.all().prefetch_related("protein")
-    if not protein_umaps:
-        raise HTTPException(status_code=404, detail="No ProteinUMAPs found")
-    return protein_umaps
-
-
-@router.get("/amino_acids/{protein_id}", responses={404: {"model": HTTPNotFoundError}})
-async def get_amino_acids(protein_id: int):
-    try:
-        amino_acids = await AminoAcid.filter(protein_id=protein_id).prefetch_related("protein").all()
-    except DoesNotExist:
-        raise HTTPException(status_code=404, detail="No amino acids found for given protein ID")
-    return amino_acids
-
-
-@router.post("/bs_amino_acids/{id}")
-async def update_amino_acid(id: int, amino_acid: AminoAcidBindingSiteSchema):
-    # Get the AminoAcid instance
-    amino_acid_instance = await AminoAcid.get_or_none(id=id)
-    if not amino_acid_instance:
-        raise HTTPException(status_code=404, detail="Amino Acid not found")
-
-    # Check if binding is already True
-    if amino_acid_instance.binding:
-        # If binding is True, return the instance without making changes
-        return amino_acid_instance
-    else:
-        # If binding is not True, update the fields
-        amino_acid_instance.binding = True
-        amino_acid_instance.ligand = amino_acid.ligand
-
-        # Save the updated instance
-        await amino_acid_instance.save()    
-
-    return amino_acid_instance
-
-
-
-import random
-
-@router.get("/protein_embedding_random/")
-async def get_random_protein_embedding():
-    try:
-        total_protein_embeddings = await ProteinEmbeddings.all().count()
-        random_index = random.randint(0, total_protein_embeddings - 1)
-        protein_embedding = await ProteinEmbeddings.all().limit(1).offset(random_index).first()
-
-        return protein_embedding
-    except DoesNotExist:
-        raise HTTPException(status_code=404, detail="Protein embedding not found")

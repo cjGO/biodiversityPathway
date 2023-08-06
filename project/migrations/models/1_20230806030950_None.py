@@ -17,15 +17,26 @@ CREATE TABLE IF NOT EXISTS "aminoacid" (
     "id" SERIAL NOT NULL PRIMARY KEY,
     "amino_acid" VARCHAR(1) NOT NULL,
     "location" INT NOT NULL,
-    "embeddings" TEXT NOT NULL,
+    "binding_site" VARCHAR(500),
+    "active_site" TEXT,
     "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE,
     CONSTRAINT "uid_aminoacid_locatio_7478a0" UNIQUE ("location", "protein_id")
+);
+CREATE TABLE IF NOT EXISTS "AminoAcidEmbedding" (
+    "id" SERIAL NOT NULL PRIMARY KEY,
+    "model_name" VARCHAR(255) NOT NULL,
+    "embeddings" TEXT NOT NULL,
+    "embedding_size" INT NOT NULL,
+    "amino_acid_id" INT NOT NULL REFERENCES "aminoacid" ("id") ON DELETE CASCADE,
+    "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE,
+    CONSTRAINT "uid_AminoAcidEm_amino_a_4233a4" UNIQUE ("amino_acid_id", "model_name")
 );
 CREATE TABLE IF NOT EXISTS "protein_embeddings" (
     "id" SERIAL NOT NULL PRIMARY KEY,
     "model_name" VARCHAR(255) NOT NULL,
     "embeddings" TEXT NOT NULL,
-    "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE
+    "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE,
+    CONSTRAINT "uid_protein_emb_protein_15669a" UNIQUE ("protein_id", "model_name")
 );
 CREATE TABLE IF NOT EXISTS "ProteinUMAP" (
     "id" SERIAL NOT NULL PRIMARY KEY,
@@ -33,6 +44,7 @@ CREATE TABLE IF NOT EXISTS "ProteinUMAP" (
     "umap_component2" DOUBLE PRECISION NOT NULL,
     "umap_component3" DOUBLE PRECISION NOT NULL,
     "umap_component4" DOUBLE PRECISION NOT NULL,
+    "model_name" VARCHAR(255) NOT NULL,
     "protein_id" INT NOT NULL REFERENCES "protein" ("id") ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS "aerich" (

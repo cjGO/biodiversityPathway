@@ -21,34 +21,34 @@ class AminoAcid(models.Model):
     protein = fields.ForeignKeyField(
         "models.Protein", related_name="amino_acids"
     )
-    binding = fields.BooleanField(null=True)
-    ligand = fields.CharField(max_length=500, null=True)
-
-
     class Meta:
         unique_together = ("location", "protein")
 
 
 class AminoAcidEmbedding(models.Model):
+    # model_name : str
+    # embedding_str : str
+    # protein_id : int
+    # embedding_size : int
     id = fields.IntField(pk=True)
-    amino_acid = fields.ForeignKeyField('models.AminoAcid', related_name='amino_acid_embeddings')
-    protein = fields.ForeignKeyField('models.Protein', related_name='protein_amino_acid_embeddings')
+    amino_acid = fields.ForeignKeyField('models.AminoAcid', related_name='amino_acid_embedding')
+    protein = fields.ForeignKeyField('models.Protein', related_name='protein_amino_acid_embedding')
     model_name = fields.CharField(max_length=255)
     embeddings = fields.TextField()
     embedding_size = fields.IntField()
 
     class Meta:
-        table = "AminoAcidEmbeddings"
-        unique_together = ("protein", "model_name")
+        table = "AminoAcidEmbedding"
+        unique_together = ("amino_acid", "model_name")
 
     def __str__(self):
         return self.model_name
 
 
 
-class ProteinEmbeddings(models.Model):
+class ProteinEmbedding(models.Model):
     id = fields.IntField(pk=True)
-    protein = fields.ForeignKeyField('models.Protein', related_name='protein_embeddings')
+    protein = fields.ForeignKeyField('models.Protein', related_name='protein_embedding')
     model_name = fields.CharField(max_length=255)
     embeddings = fields.TextField()
 
@@ -68,7 +68,7 @@ class ProteinUMAP(models.Model):
     umap_component2 = fields.FloatField()
     umap_component3 = fields.FloatField()
     umap_component4 = fields.FloatField()
-    model_name = fields.CharField(max_length=255, default='esm2_t6_8M_UR50D')
+    model_name = fields.CharField(max_length=255)
     unique_together = ("protein", "model_name")
 
     class Meta:
