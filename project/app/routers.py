@@ -1,6 +1,6 @@
 # routers.py
 from tortoise.models import Model
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from tortoise.exceptions import DoesNotExist, IntegrityError
 from tortoise.contrib.pydantic import pydantic_queryset_creator
 from tortoise.functions import Count
@@ -16,8 +16,27 @@ import ast
 from pydantic import BaseModel
 from typing import List,Dict, Optional
 
+import umap
+import numpy as np
 
 router = APIRouter()
+
+
+def split_list(d_list):
+    list1 = []
+    list2 = []
+    for d in d_list:
+        if d['model_name'] == 'facebook/esm2_t33_650M_UR50D':
+            list1.append(d)
+        else:
+            list2.append(d)
+    assert len(list1) == len(list2), 'different number of amino acid embeddings per model for same protein'
+    return list1, list2
+
+
+def get_embeddings(d_list):
+    return np.array([[float(num) for num in ast.literal_eval(d['embeddings'])] for d in d_list if 'embeddings' in d])
+
 
 def scan_features(aa_feature_list, index):
   hits = {}
@@ -33,6 +52,117 @@ def scan_features(aa_feature_list, index):
           if start <= index <= end:
             hits['Active site'] = i['description']
   return hits
+
+
+@router.get('/run_umap_on_selected_protein/{protein_id}')
+async def run_umap_on_a_protein(protein_id:int):
+    
+    #get the amino acids for that protein
+    protein = await Protein.get(id=protein_id)
+    amino_acids = await AminoAcid.filter(protein=protein).all().values()
+    # Get the amino acids associated with the protein
+    aa_embeddings = await AminoAcidEmbedding.filter(protein=protein).all().values()
+    #get the embeddings for those amino acids
+    big,small = split_list(aa_embeddings)
+    amino_acids_dict = {d['id']: d for d in amino_acids}
+    
+    emb = get_embeddings(small)
+    reducer = umap.UMAP(n_components=4)
+    small_umap = reducer.fit_transform(emb)
+    emb = get_embeddings(big)
+    reducer = umap.UMAP(n_components=4)
+    big_umap = reducer.fit_transform(emb)
+
+    return_dict = []
+    for R,B,S in zip(amino_acids, big_umap, small_umap):
+        dict_lookup = amino_acids_dict[R['id']]
+        entry = {
+            'amino_acid_id':R['id'],
+            'protein_id':R['protein_id'],
+            'facebook/esm2_t6_8M_UR50D_umap_component_1':float(S[0]) ,
+            'facebook/esm2_t6_8M_UR50D_umap_component_2':float(S[1]) ,
+            'facebook/esm2_t6_8M_UR50D_umap_component_3':float(S[2]),
+            'facebook/esm2_t6_8M_UR50D_umap_component_4':float(S[3]) ,
+            'facebook/esm2_t33_650M_UR50D_umap_component_1':float(B[0]),
+            'facebook/esm2_t33_650M_UR50D_umap_component_2':float(B[1]) ,
+            'facebook/esm2_t33_650M_UR50D_umap_component_3':float(B[2]) ,
+            'facebook/esm2_t33_650M_UR50D_umap_component_4':float(B[3]),
+            'binding_site':dict_lookup['binding_site'],
+            'active_site':dict_lookup['active_site'],
+            'location':dict_lookup['location']
+        }
+        return_dict.append(entry)
+    return return_dict
+
+@router.get('/do_umap_protein')
+async def do_umap_for_a_protein():
+    return 'test'
+
+
+@router.get("/grab_protein_umap_both")
+async def grab_both_umap_embeddings_for_all_proteins():
+
+    def combine_dicts(dict_list):
+        result = {}
+        for d in dict_list:
+            for k, v in d.items():
+                if k.startswith('umap_component'):
+                    new_key = d['model_name'] + "_" + k
+                    result[new_key] = v
+                else:
+                    result[k] = v
+        return result
+
+    def get_unique_protein_id(proteins):
+        unique_protein_ids = set()
+        for protein in proteins:
+            unique_protein_ids.add(protein['protein_id'])
+        return unique_protein_ids
+
+    consolidation = [] 
+    proteins = await ProteinUMAP.all().values()
+    unique_protein_ids = get_unique_protein_id(proteins)
+    for i in unique_protein_ids:
+        i_protein = await ProteinUMAP.filter(protein_id = i).values()
+        consolidation.append(combine_dicts(i_protein))
+    return consolidation
+    
+
+@router.get("/grab_aa_embeddings_full/{protein_id}")
+async def read_protein(protein_id: int):
+    protein = await Protein.get(id=protein_id)
+    if not protein:
+        raise HTTPNotFoundError(detail=f"Protein {protein_id} not found")
+    amino_acids = await AminoAcid.filter(protein=protein)
+    amino_acid_embeddings = await AminoAcidEmbedding.filter(protein=protein).prefetch_related('amino_acid')
+
+    # Create a new list to hold the combined data
+    combined_data = []
+    
+    # Add additional fields to AminoAcidEmbedding objects
+    # Add additional fields to AminoAcidEmbedding objects
+    for embedding in amino_acid_embeddings:
+        if embedding.model_name == 'facebook/esm2_t6_8M_UR50D':
+            embeddings = embedding.embeddings
+            model_name = embedding.model_name
+            amino_acid = embedding.amino_acid.amino_acid
+            location = embedding.amino_acid.location
+            aa_id = embedding.id
+            binding_site = embedding.amino_acid.binding_site
+            active_site = embedding.amino_acid.active_site
+
+            combined_data.append({'amino_acid':amino_acid,
+            'model_name':model_name,
+            'amino_acid':amino_acid,
+            'location':location,
+            'id':aa_id,
+            'binding_site':binding_site,
+            'active_site':active_site,
+            'embeddings':embeddings})
+    combined_data = sorted(combined_data, key=lambda x: x['location'])
+
+    return combined_data
+    
 
 
     # aa_feature_list = ast.literal_eval(payload.aa_features)
@@ -61,6 +191,24 @@ def scan_features(aa_feature_list, index):
     #     uniprot_id=payload.uniprot_id,
     #     biological_process=payload.biological_process,
     # )
+@router.get("/protein_embeddings/{model_name}", responses={404: {"model": HTTPNotFoundError}})
+async def get_protein_embeddings_by_model_name(model_name: str):
+    try:
+        embeddings = await ProteinEmbedding.filter(model_name=model_name).all()
+        if not embeddings:
+            raise HTTPException(status_code=404, detail="Embeddings not found")
+        return embeddings
+    except DoesNotExist:
+        raise HTTPException(status_code=404, detail="Model not found")
+
+
+
+@router.get("/protein_embeddings/unique_model_names")
+async def get_unique_model_names():
+    model_names = await ProteinEmbedding.all().values('model_name').distinct()
+    return [item['model_name'] for item in model_names]
+
+
 
 @router.get('/get_all_protein/')
 async def get_all_protein():
@@ -77,6 +225,7 @@ async def get_proteins():
 async def check_existence(protein_id: int, model_name: str):
     exists = await ProteinEmbedding.filter(protein_id=protein_id, model_name=model_name).exists()
     return {"exists": exists}
+
 @router.get('/protein/{protein_id}/amino_acids/')
 async def get_amino_acids_for_protein(protein_id: int):
     try:
@@ -131,6 +280,15 @@ async def get_umaps():
         'amino_acids': list(amino_acids),
     }
 
+@router.get('/aa_embeds/')
+async def get_basic_aa_embeds():
+    total_amino_acids = await AminoAcidEmbedding.all().count()
+    amino_acids = await AminoAcidEmbedding.all().limit(5)
+    return {
+        'total_amino_acids': total_amino_acids,
+        'amino_acids': list(amino_acids),
+    }
+
 @router.get('/umap/')
 async def get_umap_model(model_name:str):
     umap = await ProteinUMAP.all().limit(5)
@@ -173,6 +331,17 @@ from fastapi import HTTPException
 async def get_amino_acid_embedding_by_protein(protein_id: int):
     amino_acid_embeddings = await AminoAcidEmbedding.filter(protein=protein_id).prefetch_related("amino_acid")
     return amino_acid_embeddings
+
+class EmbeddingRequest(BaseModel):
+    protein_id: int
+    model_name: str
+@router.get("/amino_acid_embedding/protein")
+async def get_amino_acid_embedding_by_protein_and_model(embedding_request: EmbeddingRequest):
+    amino_acid_embeddings = await AminoAcidEmbedding.filter(
+        protein_id=embedding_request.protein_id, model_name=embedding_request.model_name
+    ).prefetch_related("amino_acid")
+    return amino_acid_embeddings
+
 
 
 @router.post('/upload_uniprot_protein/')
@@ -325,6 +494,30 @@ async def upload_protein_umap(payload: ProteinUMAPPayloadSchema):
 
     print('created')
     return payload
+
+
+
+
+@router.post("/upload_protein_umap/")
+async def upload_protein_umap(payload: ProteinUMAPPayloadSchema):
+    
+    protein = await Protein.get_or_none(id=payload.protein_id)
+    if not protein:
+        raise HTTPException(status_code=404, detail="Protein not found")
+
+    try:
+        protein_umap_obj = await ProteinUMAP.create(
+            protein=protein,
+            model_name=payload.model_name,
+            umap_component1=payload.umap_component1,
+            umap_component2=payload.umap_component2,
+            umap_component3=payload.umap_component3,
+            umap_component4=payload.umap_component4,
+        )
+    except IntegrityError:
+        raise HTTPException(status_code=400, detail="Data already exists for this Protein and Model Name")
+    
+    return {"id": protein_umap_obj.id}
 
 @router.delete('/delete_all_umaps/')
 async def delete_all_umaps():
