@@ -74,9 +74,13 @@ async def run_umap_on_a_protein(protein_id:int):
     big_umap = reducer.fit_transform(emb)
 
     return_dict = []
+    count = 0
     for R,B,S in zip(amino_acids, big_umap, small_umap):
         dict_lookup = amino_acids_dict[R['id']]
         entry = {
+            'binding_site':dict_lookup['binding_site'],
+            'active_site':dict_lookup['active_site'],
+            'location':dict_lookup['location'],
             'amino_acid_id':R['id'],
             'protein_id':R['protein_id'],
             'facebook/esm2_t6_8M_UR50D_umap_component_1':float(S[0]) ,
@@ -87,10 +91,10 @@ async def run_umap_on_a_protein(protein_id:int):
             'facebook/esm2_t33_650M_UR50D_umap_component_2':float(B[1]) ,
             'facebook/esm2_t33_650M_UR50D_umap_component_3':float(B[2]) ,
             'facebook/esm2_t33_650M_UR50D_umap_component_4':float(B[3]),
-            'binding_site':dict_lookup['binding_site'],
-            'active_site':dict_lookup['active_site'],
-            'location':dict_lookup['location']
+            'id':count,
+            'amino_acid':R['amino_acid'],
         }
+        count+=1
         return_dict.append(entry)
     return return_dict
 
