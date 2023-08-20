@@ -3,6 +3,7 @@ import os
 from fastapi import FastAPI, Depends
 from tortoise.contrib.fastapi import register_tortoise
 from .routers import router
+from .clone_router import clone_router
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings, Settings
@@ -10,6 +11,7 @@ from app.config import get_settings, Settings
 
 app = FastAPI()
 app.include_router(router)
+app.include_router(clone_router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -22,7 +24,7 @@ app.add_middleware(
 register_tortoise(
     app,
     db_url=os.environ.get("DATABASE_URL"),
-    modules={"models": ["app.models.tortoise"]},
+    modules={"models": ["app.models.tortoise", 'app.models.clones']},
     generate_schemas=True,
     add_exception_handlers=True,
 )
